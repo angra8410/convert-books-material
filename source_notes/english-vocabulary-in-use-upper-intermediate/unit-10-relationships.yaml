@@ -1,0 +1,25 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: relationships
+  title: Relationships
+  order: 10
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: relationships-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Write a short response using the key language from 'Relationships'.
+  related: []

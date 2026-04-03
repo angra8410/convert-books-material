@@ -1,0 +1,26 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: countries-nationalities-and-languages
+  title: Countries, nationalities and languages
+  order: 5
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: countries-nationalities-and-languages-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Write a short response using the key language from 'Countries, nationalities
+      and languages'.
+  related: []

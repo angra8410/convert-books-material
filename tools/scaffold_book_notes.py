@@ -116,6 +116,7 @@ def parse_chapter_lines(lines: list[str]) -> list[str]:
         line = raw_line.strip()
         if not line or line.startswith("#"):
             continue
+        line = re.sub(r"^\d+\s+", "", line)
         line = re.sub(r"^\d+[\.\)\-:]\s*", "", line)
         line = re.sub(r"^(unit|chapter|lesson)\s+\d+\s*[\.\)\-:]?\s*", "", line, flags=re.IGNORECASE)
         cleaned = line.strip()

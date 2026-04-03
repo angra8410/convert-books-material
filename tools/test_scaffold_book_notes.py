@@ -31,6 +31,7 @@ class ScaffoldBookNotesTest(unittest.TestCase):
         lines = [
             "",
             "# comment",
+            "1 Learning vocabulary",
             "1. Describing people",
             "Unit 2: Feelings and reactions",
             "Chapter 3 - Work and jobs",
@@ -39,7 +40,7 @@ class ScaffoldBookNotesTest(unittest.TestCase):
         titles = scaffolder.parse_chapter_lines(lines)
 
         self.assertEqual(
-            ["Describing people", "Feelings and reactions", "Work and jobs"],
+            ["Learning vocabulary", "Describing people", "Feelings and reactions", "Work and jobs"],
             titles,
         )
 

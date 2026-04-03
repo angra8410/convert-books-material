@@ -1,0 +1,26 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: organising-a-vocabulary-notebook
+  title: Organising a vocabulary notebook
+  order: 2
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: organising-a-vocabulary-notebook-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Write a short response using the key language from 'Organising a vocabulary
+      notebook'.
+  related: []

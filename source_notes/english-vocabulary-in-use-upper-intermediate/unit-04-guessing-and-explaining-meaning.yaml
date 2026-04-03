@@ -1,0 +1,26 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: guessing-and-explaining-meaning
+  title: Guessing and explaining meaning
+  order: 4
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: guessing-and-explaining-meaning-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Write a short response using the key language from 'Guessing and explaining
+      meaning'.
+  related: []
