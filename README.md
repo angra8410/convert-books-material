@@ -69,3 +69,41 @@ After that:
 1. Fill in `summary`, `points`, `examples`, `pitfalls`, and the prompt text.
 2. Run `python tools/import_notes.py`
 3. Inspect `app/src/main/assets/content_repository.json`
+
+## PDF TOC extraction
+
+`tools/extract_pdf_toc.py` extracts a chapter list from a PDF using embedded bookmarks when they exist, and text heuristics when they do not.
+
+It requires `pypdf`:
+
+```powershell
+pip install pypdf
+```
+
+Example:
+
+```powershell
+python tools/extract_pdf_toc.py `
+  "C:\path\to\English Vocabulary in Use Upper-Intermediate.pdf" `
+  --format titles `
+  --output chapters.txt
+```
+
+The extractor now prints progress to the terminal while it works, for example when it opens the PDF, checks bookmarks, and scans TOC pages. If you want silent mode, add:
+
+```powershell
+--quiet
+```
+
+Then feed that chapter list into the scaffolder:
+
+```powershell
+python tools/scaffold_book_notes.py `
+  --book-title "English Vocabulary in Use Upper-Intermediate" `
+  --book-author "Michael McCarthy; Felicity O'Dell" `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --book-cefr B2 `
+  --book-tags vocabulary `
+  --chapters-file .\chapters.txt `
+  --include-starter-prompts
+```
