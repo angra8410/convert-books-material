@@ -1,0 +1,248 @@
+{
+  "version": 2,
+  "generatedAt": "2026-04-02T14:19:56.535907+00:00",
+  "books": [
+    {
+      "id": "advanced-grammar-in-use",
+      "title": "Advanced Grammar in Use",
+      "author": "Martin Hewings",
+      "cefr": [
+        "C1",
+        "C2"
+      ],
+      "sourceType": "curated_notes",
+      "tags": [
+        "grammar"
+      ],
+      "chapters": [
+        {
+          "id": "present-simple-vs-continuous",
+          "title": "Present simple vs present continuous",
+          "order": 1,
+          "cefr": [
+            "C1"
+          ],
+          "tags": [
+            "grammar",
+            "tense",
+            "present-simple",
+            "present-continuous"
+          ],
+          "summary": "Use present simple for routines and general truths, and present continuous for actions in progress or temporary situations.",
+          "points": [
+            "Present simple describes habits and general truths.",
+            "Present continuous describes actions happening now.",
+            "Present continuous can describe temporary situations."
+          ],
+          "examples": [
+            {
+              "english": "She works in London.",
+              "note": "routine"
+            },
+            {
+              "english": "She is working from home this week.",
+              "note": "temporary arrangement"
+            }
+          ],
+          "pitfalls": [
+            "Do not overuse present continuous with stative verbs."
+          ],
+          "practicePrompts": [
+            {
+              "id": "present-simple-vs-continuous-prompt-1",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Write three sentence pairs contrasting present simple and present continuous."
+            }
+          ],
+          "related": [
+            "unit-2"
+          ],
+          "metadata": {
+            "sourceFile": "advanced-grammar\\unit-1.yaml"
+          }
+        },
+        {
+          "id": "present-simple-vs-continuous-2",
+          "title": "Present simple vs present continuous (2)",
+          "order": 2,
+          "cefr": [
+            "C1"
+          ],
+          "tags": [
+            "grammar",
+            "stative-verbs",
+            "tense"
+          ],
+          "summary": "Some stative verbs usually prefer the present simple, but the continuous can sometimes be used to emphasize temporariness or change.",
+          "points": [
+            "Many state verbs are more commonly used in the present simple.",
+            "The present continuous can highlight temporary behavior or change."
+          ],
+          "examples": [
+            {
+              "english": "I understand the problem.",
+              "note": "stative verb"
+            },
+            {
+              "english": "He is being difficult today.",
+              "note": "temporary behavior"
+            }
+          ],
+          "pitfalls": [
+            "Not every verb that describes a state sounds natural in the continuous."
+          ],
+          "practicePrompts": [
+            {
+              "id": "present-simple-vs-continuous-2-prompt-1",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Rewrite five sentences using the more natural tense."
+            }
+          ],
+          "related": [
+            "unit-1"
+          ],
+          "metadata": {
+            "sourceFile": "advanced-grammar\\unit-2.yaml"
+          }
+        }
+      ]
+    },
+    {
+      "id": "english-vocabulary-in-use-advanced",
+      "title": "English Vocabulary in Use Advanced",
+      "author": "Michael McCarthy; Felicity O'Dell",
+      "cefr": [
+        "C1",
+        "C2"
+      ],
+      "sourceType": "curated_notes",
+      "tags": [
+        "vocabulary"
+      ],
+      "chapters": [
+        {
+          "id": "applying-for-a-job",
+          "title": "Applying for a job",
+          "order": 3,
+          "cefr": [
+            "C1"
+          ],
+          "tags": [
+            "vocabulary",
+            "jobs",
+            "applications",
+            "career"
+          ],
+          "summary": "Vocabulary for job ads, cover letters, applications and career-related language.",
+          "points": [
+            "A cover letter should highlight relevant experience and suitability for the role.",
+            "Job ads often mention career prospects, training and salary expectations.",
+            "Applications should stand out clearly and professionally."
+          ],
+          "examples": [
+            {
+              "english": "Please find attached my CV in support of my application.",
+              "note": "formal application language"
+            },
+            {
+              "english": "The post offers excellent career prospects.",
+              "note": "job advertisement language"
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse a cover letter with a CV.",
+            "Avoid overly casual language in job applications."
+          ],
+          "practicePrompts": [
+            {
+              "id": "applying-for-a-job-prompt-1",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Write a short cover letter for an entry-level role."
+            },
+            {
+              "id": "applying-for-a-job-prompt-2",
+              "type": "open_text",
+              "targetSkill": "VOCABULARY",
+              "prompt": "List five phrases commonly used in job advertisements."
+            }
+          ],
+          "related": [
+            "job-interviews"
+          ],
+          "metadata": {
+            "sourceFile": "vocabulary\\unit-3.json"
+          }
+        },
+        {
+          "id": "job-interviews",
+          "title": "Job interviews",
+          "order": 4,
+          "cefr": [
+            "C1"
+          ],
+          "tags": [
+            "vocabulary",
+            "interview",
+            "jobs",
+            "speaking"
+          ],
+          "summary": "Vocabulary and phrases used in job interviews, including preparation, confidence, first impressions, interview panels and job offers.",
+          "points": [
+            "Candidates may be shortlisted for interview based on selection criteria.",
+            "It is important to do your homework before an interview.",
+            "Body language and first impressions matter.",
+            "Candidates may be asked about previous roles, responsibilities and notice period.",
+            "A job offer may include salary, benefits and reporting structure."
+          ],
+          "examples": [
+            {
+              "english": "I was shortlisted for an interview last week.",
+              "note": "hiring process"
+            },
+            {
+              "english": "We believe your qualifications are an ideal fit for the role.",
+              "note": "job offer language"
+            },
+            {
+              "english": "My notice period is two weeks.",
+              "note": "employment terms"
+            }
+          ],
+          "pitfalls": [
+            "Do not confuse a line manager with an interview panel.",
+            "Do not use overly casual language when discussing experience in an interview."
+          ],
+          "practicePrompts": [
+            {
+              "id": "job-interviews-prompt-1",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Write five interview questions and model answers."
+            },
+            {
+              "id": "job-interviews-prompt-2",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Describe a previous role using formal interview language."
+            },
+            {
+              "id": "job-interviews-prompt-3",
+              "type": "open_text",
+              "targetSkill": "WRITING",
+              "prompt": "Draft a short acceptance email for a job offer."
+            }
+          ],
+          "related": [
+            "applying-for-a-job"
+          ],
+          "metadata": {
+            "sourceFile": "vocabulary\\unit-4.md"
+          }
+        }
+      ]
+    }
+  ]
+}

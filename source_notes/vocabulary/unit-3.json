@@ -1,0 +1,44 @@
+{
+  "id": "applying-for-a-job",
+  "title": "Applying for a job",
+  "order": 3,
+  "cefr": ["C1"],
+  "tags": ["vocabulary", "jobs", "applications", "career"],
+  "summary": "Vocabulary for job ads, cover letters, applications and career-related language.",
+  "points": [
+    "A cover letter should highlight relevant experience and suitability for the role.",
+    "Job ads often mention career prospects, training and salary expectations.",
+    "Applications should stand out clearly and professionally."
+  ],
+  "examples": [
+    {
+      "english": "Please find attached my CV in support of my application.",
+      "note": "formal application language"
+    },
+    {
+      "english": "The post offers excellent career prospects.",
+      "note": "job advertisement language"
+    }
+  ],
+  "pitfalls": [
+    "Do not confuse a cover letter with a CV.",
+    "Avoid overly casual language in job applications."
+  ],
+  "practicePrompts": [
+    {
+      "id": "applying-for-a-job-prompt-1",
+      "type": "open_text",
+      "targetSkill": "WRITING",
+      "prompt": "Write a short cover letter for an entry-level role."
+    },
+    {
+      "id": "applying-for-a-job-prompt-2",
+      "type": "open_text",
+      "targetSkill": "VOCABULARY",
+      "prompt": "List five phrases commonly used in job advertisements."
+    }
+  ],
+  "related": [
+    "job-interviews"
+  ]
+}

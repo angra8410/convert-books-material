@@ -1,0 +1,27 @@
+id: present-simple-vs-continuous-2
+title: Present simple vs present continuous (2)
+order: 2
+cefr:
+  - C1
+tags:
+  - grammar
+  - stative-verbs
+  - tense
+summary: Some stative verbs usually prefer the present simple, but the continuous can sometimes be used to emphasize temporariness or change.
+points:
+  - Many state verbs are more commonly used in the present simple.
+  - The present continuous can highlight temporary behavior or change.
+examples:
+  - english: I understand the problem.
+    note: stative verb
+  - english: He is being difficult today.
+    note: temporary behavior
+pitfalls:
+  - Not every verb that describes a state sounds natural in the continuous.
+practicePrompts:
+  - id: present-simple-vs-continuous-2-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Rewrite five sentences using the more natural tense.
+related:
+  - unit-1

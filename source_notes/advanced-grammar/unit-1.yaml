@@ -1,0 +1,29 @@
+id: present-simple-vs-continuous
+title: Present simple vs present continuous
+order: 1
+cefr:
+  - C1
+tags:
+  - grammar
+  - tense
+  - present-simple
+  - present-continuous
+summary: Use present simple for routines and general truths, and present continuous for actions in progress or temporary situations.
+points:
+  - Present simple describes habits and general truths.
+  - Present continuous describes actions happening now.
+  - Present continuous can describe temporary situations.
+examples:
+  - english: She works in London.
+    note: routine
+  - english: She is working from home this week.
+    note: temporary arrangement
+pitfalls:
+  - Do not overuse present continuous with stative verbs.
+practicePrompts:
+  - id: present-simple-vs-continuous-prompt-1
+    type: open_text
+    targetSkill: WRITING
+    prompt: Write three sentence pairs contrasting present simple and present continuous.
+related:
+  - unit-2
