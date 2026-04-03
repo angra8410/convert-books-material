@@ -70,6 +70,28 @@ After that:
 2. Run `python tools/import_notes.py`
 3. Inspect `app/src/main/assets/content_repository.json`
 
+## Ollama chapter drafting
+
+`tools/draft_chapter_with_ollama.py` drafts missing chapter fields from raw unit text using local Ollama.
+
+Example:
+
+```powershell
+python tools/draft_chapter_with_ollama.py `
+  --chapter-file source_notes\english-vocabulary-in-use-upper-intermediate\unit-01-learning-vocabulary.yaml `
+  --source-text-file .\raw_unit_01.txt `
+  --model gemma3:27b `
+  --timeout-seconds 300 `
+  --apply
+```
+
+By default it fills only missing `summary`, `points`, `examples`, and `pitfalls`, and it replaces the scaffold's placeholder starter prompt when a better Ollama prompt is returned.
+
+Use these flags when needed:
+
+- `--replace-practice-prompts`
+- `--replace-nonempty`
+
 ## PDF TOC extraction
 
 `tools/extract_pdf_toc.py` extracts a chapter list from a PDF using embedded bookmarks when they exist, and text heuristics when they do not.
