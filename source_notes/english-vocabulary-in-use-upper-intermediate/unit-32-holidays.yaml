@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: holidays
+  title: Holidays
+  order: 32
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for accommodation, holiday activities, and the descriptive language used in holiday brochures and messages. It also highlights typical promotional collocations.
+  points:
+  - Holiday accommodation includes campsite, caravan, youth hostel, self-catering apartment, and package holiday.
+  - Holiday activities include sunbathing, sightseeing, going on excursions, and getting away from it all.
+  - Brochure language often uses strong positive adjectives such as breathtaking, luxurious, exclusive, and fascinating.
+  - Common holiday collocations include magnificent mountains, sandy beach, lively resort, and guided tour.
+  - Holiday advertisements often exaggerate, so brochure language should be learned as promotional vocabulary.
+  - Travel and holiday descriptions often depend on adjective-noun combinations rather than single words.
+  examples:
+  - english: campsite / caravan / youth hostel / self-catering apartment
+  - english: package holiday / excursion / guided tour / resort
+  - english: breathtaking scenery / luxurious hotel / exclusive beach
+  - english: magnificent mountains / sandy beach / fascinating town
+  pitfalls:
+  - Do not assume brochure adjectives are neutral; they are often promotional.
+  - Do not learn accommodation words without the collocations that describe them.
+  - Do not confuse self-catering with full-board or hotel-style accommodation.
+  practicePrompts:
+  - id: holidays-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a holiday destination using vocabulary such as campsite, resort, breathtaking, luxurious, or excursion.
+  - id: holidays-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain what kind of holiday you would choose, using at least two accommodation words and two brochure-style adjectives from this unit.
+  related: []

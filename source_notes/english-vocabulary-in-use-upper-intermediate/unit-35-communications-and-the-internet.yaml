@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: communications-and-the-internet
+  title: Communications and the Internet
+  order: 35
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for the Internet, websites, and online communication. It focuses on the difference between key terms and on common actions people perform online.
+  points:
+  - The Internet is the worldwide network, while the Web is one part of it.
+  - Internet vocabulary includes wi-fi, browser, search engine, website, home page, and bookmark.
+  - Communication terms include email, attachment, FAQ, log in, and log out.
+  - Search language includes search engine, Google, and googling.
+  - Online actions are usually described through fixed phrases such as browse the Web, log in, or bookmark a page.
+  - Internet vocabulary often mixes technical nouns with everyday verbs.
+  examples:
+  - english: Internet / Web / wi-fi / browser / search engine
+  - english: website / home page / bookmark / FAQ / attachment
+  - english: log in / log out / surf the net / google something
+  - english: website / institution / page / connection
+  pitfalls:
+  - Do not use Internet and Web as if they were identical in every context.
+  - Do not forget the verb patterns with log in and log out.
+  - Do not learn internet terms without the actions that normally go with them.
+  practicePrompts:
+  - id: communications-and-the-internet-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how someone can find information online, using vocabulary such as browser, search engine, website, bookmark, or FAQ.
+  - id: communications-and-the-internet-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe the difference between the Internet and the Web, using examples from this unit.
+  related: []

@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: science-and-technology
+  title: Science and technology
+  order: 33
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for modern science and everyday technology. It covers scientific fields, technical verbs, and the language used to describe devices and innovations.
+  points:
+  - Science vocabulary includes genetics, molecular biology, ergonomics, hydroponics, and stem cell research.
+  - Technology vocabulary includes smartphone, 3D TV, printer, button, feature, and device.
+  - Scientific verbs include modify, engineer, extract, experiment, and utilise.
+  - Some terms describe applied science, such as voice technology and genetic engineering.
+  - Technical language often combines nouns and verbs in fixed patterns, such as press a button or turn on a printer.
+  - Technology is broader than computers and includes scientific and practical inventions.
+  examples:
+  - english: genetic engineering / GM foods / stem cell research
+  - english: ergonomics / hydroponics / molecular biology
+  - english: device / feature / printer / smartphone / 3D TV
+  - english: experiment with / utilise / extract / turn on / press a button
+  pitfalls:
+  - Do not assume technology only refers to digital devices.
+  - Do not confuse scientific fields with the products or inventions that come from them.
+  - Do not use formal technical verbs such as utilise without understanding their register.
+  practicePrompts:
+  - id: science-and-technology-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a modern scientific or technological development using vocabulary such as genetic engineering, device, feature, or experiment.
+  - id: science-and-technology-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between a scientific field and a piece of technology, using examples from this unit.
+  related: []

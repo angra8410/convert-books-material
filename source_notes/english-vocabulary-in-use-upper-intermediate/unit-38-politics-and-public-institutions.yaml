@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: politics-and-public-institutions
+  title: Politics and public institutions
+  order: 38
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for political systems, elections, and public institutions. It contrasts presidential and parliamentary systems and includes key words for representation and government.
+  points:
+  - Political systems include republic, monarchy, dictatorship, presidential government, and parliamentary government.
+  - Election vocabulary includes candidate, constituency, electorate, majority, seat, and term.
+  - The Prime Minister and President have different roles depending on the political system.
+  - Public institutions and political language often focus on representation and power.
+  - Government vocabulary often combines abstract nouns with election and leadership verbs.
+  - Political terms need context because they are system-specific.
+  examples:
+  - english: republic / monarchy / dictatorship / parliamentary government / presidential government
+  - english: Prime Minister / President / Cabinet / Parliament
+  - english: candidate / constituency / electorate / majority / seat / term
+  - english: general election / represent voters / appoint officials
+  pitfalls:
+  - Do not assume presidential and parliamentary systems work in the same way.
+  - Do not confuse electorate with constituency.
+  - Do not treat monarchy as identical to absolute rule in every context.
+  practicePrompts:
+  - id: politics-and-public-institutions-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between a presidential and a parliamentary system, using examples from this unit.
+  - id: politics-and-public-institutions-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe an election using vocabulary such as candidate, constituency, majority, seat, or electorate.
+  related: []

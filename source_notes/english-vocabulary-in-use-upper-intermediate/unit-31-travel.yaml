@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: travel
+  title: Travel
+  order: 31
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for transport, journeys, and common travel situations. It also clarifies important differences between words such as trip, journey, travel, and voyage.
+  points:
+  - Travel vocabulary is often grouped by road, rail, sea, and air.
+  - Vehicle words include coach, van, lorry, liner, ferry, aircraft, and helicopter.
+  - Travel words are not interchangeable: trip is often shorter, journey is more general, travel is uncountable, and voyage is usually long and often by sea.
+  - Transport collocations include delayed flight, put someone up in a hotel, on standby, turbulence, and bumpy landing.
+  - Sea travel expressions include rough sea, calm sea, crew member, and get seasick.
+  - Common mistakes include saying a travel and using in time when on time is needed.
+  examples:
+  - english: coach / lorry / high-speed train / ferry / aircraft
+  - english: platform / runway / cabin / cockpit / deck
+  - english: trip / journey / travel / voyage
+  - english: delayed flight / on standby / turbulence / bumpy landing
+  - english: put me up in a hotel / on time / get seasick
+  pitfalls:
+  - Do not say a travel because travel is uncountable.
+  - Do not confuse trip and journey in fixed expressions such as business trip.
+  - Do not use in time when you mean punctually; use on time.
+  practicePrompts:
+  - id: travel-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a journey using vocabulary such as trip, journey, delayed flight, turbulence, or on time.
+  - id: travel-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between trip, journey, travel, and voyage, using examples from this unit.
+  related: []

@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: crime
+  title: Crime
+  order: 39
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for crimes, criminal investigations, and court procedures. It also covers the people involved in trials and the language of punishment.
+  points:
+  - Crime vocabulary includes shoplifting, burglary, terrorism, robbery, and accomplice.
+  - Investigation and court language includes evidence, jury, verdict, sentence, and plead not guilty.
+  - Crime nouns often have related verbs, such as burgle, shoplift, rob, and terrorise.
+  - Legal outcomes include guilty, not guilty, prison, sentence, and early release.
+  - Crime vocabulary often depends on role words such as criminal, judge, jury, witness, and accomplice.
+  - Legal terms are closely tied to courtroom stages and decisions.
+  examples:
+  - english: criminal / crime / accomplice / evidence / witness
+  - english: shoplifting / burglary / robbery / terrorism
+  - english: plead not guilty / jury / verdict / sentence
+  - english: prison / early release / good behaviour
+  pitfalls:
+  - Do not confuse the crime noun with its related verb.
+  - Do not mix up verdict and sentence.
+  - Do not learn court vocabulary without the people who use or decide it.
+  practicePrompts:
+  - id: crime-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a crime case using vocabulary such as evidence, jury, verdict, sentence, or accomplice.
+  - id: crime-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between a crime, a criminal, and the legal process after an arrest, using expressions from this unit.
+  related: []

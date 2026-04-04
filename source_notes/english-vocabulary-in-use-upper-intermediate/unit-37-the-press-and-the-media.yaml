@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: the-press-and-the-media
+  title: The press and the media
+  order: 37
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for television, newspapers, and the wider mass media. It covers programme types, newspaper styles, and common media collocations.
+  points:
+  - Media vocabulary includes documentary, sitcom, game show, presenter, subtitles, and dubbing.
+  - The mass media includes television, radio, newspapers, and the Internet.
+  - Newspaper language contrasts tabloids with quality newspapers.
+  - Broadcast vocabulary includes broadcast, channel, series, and set in.
+  - News is uncountable and normally takes a singular verb.
+  - Media descriptions often depend on programme-type labels and fixed expressions.
+  examples:
+  - english: documentary / sitcom / game show / presenter
+  - english: subtitles / dubbing / channel / broadcast / series
+  - english: tabloid / quality newspaper / celebrity news / crime story
+  - english: the news is on / set in London / shot in black and white
+  pitfalls:
+  - Do not use a plural verb with news.
+  - Do not confuse tabloids with quality newspapers.
+  - Do not learn programme words without the type labels that classify them.
+  practicePrompts:
+  - id: the-press-and-the-media-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a TV or newspaper item using vocabulary such as documentary, sitcom, tabloid, subtitles, or presenter.
+  - id: the-press-and-the-media-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between tabloid and quality newspaper coverage, using examples from this unit.
+  related: []

@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: computers
+  title: Computers
+  order: 34
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for computer hardware, software, and common user actions. It also includes useful collocations connected with files, data, and upgrades.
+  points:
+  - Hardware refers to the physical parts of a computer, such as the hard disk, screen, and microchip.
+  - Software refers to programs, applications, and operating tools such as word processors and spreadsheets.
+  - Common computer words include laptop, desktop computer, PC, app, network, and file.
+  - Useful actions include back up data, undo a change, upgrade a system, and download a file.
+  - Many computer tasks are described through fixed verb-noun collocations rather than single words.
+  - Good computer vocabulary often pairs a device word with the action normally used with it.
+  examples:
+  - english: hardware / software / app / network / file
+  - english: laptop / desktop computer / PC / hard disk / microchip
+  - english: back up data / undo a change / upgrade a system
+  - english: word processor / spreadsheet / application
+  pitfalls:
+  - Do not confuse hardware with software.
+  - Do not treat back up as the same as save.
+  - Do not learn a device name without the action it is commonly used with.
+  practicePrompts:
+  - id: computers-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe how you use a computer, using vocabulary such as laptop, app, network, file, or word processor.
+  - id: computers-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between hardware and software, using examples from this unit.
+  related: []

@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: money
+  title: Money
+  order: 40
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for personal finance, bank services, and public finance. It covers accounts, borrowing, debt, and the main taxes people encounter.
+  points:
+  - Personal finance vocabulary includes current account, savings account, overdraft, credit limit, loan, and mortgage.
+  - Bank service language includes direct debit, transfer money, online banking, and cash machine.
+  - Financial condition words include income, outgoings, expenses, in credit, overdrawn, and in the red.
+  - Public finance includes income tax, inheritance tax, customs duty, VAT, and corporation tax.
+  - Money vocabulary often depends on collocations such as raise money, pay interest, or improve your credit rating.
+  - Finance language mixes everyday banking with more formal tax terminology.
+  examples:
+  - english: current account / savings account / overdraft / mortgage
+  - english: direct debit / transfer money / online banking / cash machine
+  - english: income / outgoings / expenses / in credit / in the red
+  - english: income tax / inheritance tax / customs duty / VAT
+  pitfalls:
+  - Do not confuse in credit with overdrawn.
+  - Do not forget that overdrafts and loans involve interest and limits.
+  - Do not mix up personal finance vocabulary with public tax terms.
+  practicePrompts:
+  - id: money-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe how someone manages money using vocabulary such as current account, direct debit, overdraft, mortgage, or savings account.
+  - id: money-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between personal finance and public finance, using examples from this unit.
+  related: []

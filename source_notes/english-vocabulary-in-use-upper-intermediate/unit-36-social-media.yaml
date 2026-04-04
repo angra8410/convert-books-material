@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: social-media
+  title: Social media
+  order: 36
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for social media activity, online privacy, and common app features. It also highlights how many social media words function as both nouns and verbs.
+  points:
+  - Social media words often work as both nouns and verbs, such as post, comment, and share.
+  - Common actions include follow, subscribe, like, rate, and send a direct message.
+  - Social media users need to understand privacy settings and account management.
+  - Notifications, posts, comments, and shares describe common app activity.
+  - Social media vocabulary often mixes platform features with personal communication language.
+  - Online safety language is an important part of this topic.
+  examples:
+  - english: post / comment / share / follow / subscribe
+  - english: like a post / rate a video / direct message / notification
+  - english: privacy settings / account / delete an old account
+  - english: app / adventure / profile / personal information
+  pitfalls:
+  - Do not share personal information without checking privacy settings.
+  - Do not forget that many social media words can be both nouns and verbs.
+  - Do not confuse a public post with a direct message.
+  practicePrompts:
+  - id: social-media-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe what people can do on social media using vocabulary such as post, comment, share, follow, or direct message.
+  - id: social-media-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why privacy settings matter on social media, using at least two expressions from this unit.
+  related: []
