@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: making-uncountable-nouns-countable
+  title: Making uncountable nouns countable
+  order: 86
+  cefr:
+  - B2
+  tags: []
+  summary: This unit shows how uncountable nouns can be made countable with expressions
+    such as 'a piece of', 'a bit of', and more specific container or quantity words.
+  points:
+  - Uncountable nouns can become countable with 'a piece of' or 'a bit of' (or their
+    plural forms).
+  - '''Bit'' is less formal than ''piece'' and often used with all types of nouns,
+    while ''piece'' is more common with uncountable nouns.'
+  - '''Bit'' suggests a smaller amount than ''piece''.'
+  - Specific nouns like 'slice', 'blade', 'lump', and 'article' can also be used to
+    make uncountable nouns countable.
+  - The phrase 'state of' is used with abstract nouns like chaos, tension, or poverty.
+  - Certain phrases, like 'stroke of luck' or 'fit of temper', combine with uncountable
+    nouns.
+  examples:
+  - english: What an attractive piece of furniture!
+  - english: The police collected bits of information from different sources.
+  - english: Chopin wrote some wonderful pieces of music.
+  - english: I need a loaf of bread, a couple of slices of ham...
+  pitfalls:
+  - Avoid saying 'What an attractive furniture!' Use 'piece of furniture' instead.
+  - Be mindful of the formality difference between 'piece' and 'bit'.
+  - '''Bit'' and ''piece'' are not always interchangeable.'
+  practicePrompts:
+  - id: making-uncountable-nouns-countable-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four examples that make uncountable nouns countable using expressions
+      from this unit.
+  - id: making-uncountable-nouns-countable-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain when a more specific word such as 'slice', 'lump', or 'stroke'
+      sounds better than 'piece'.
+  related: []

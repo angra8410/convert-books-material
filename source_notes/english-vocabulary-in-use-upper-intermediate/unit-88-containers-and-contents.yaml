@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: containers-and-contents
+  title: Containers and contents
+  order: 88
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers common container words and typical combinations used for
+    what they hold.
+  points:
+  - A 'container' is something that holds things.
+  - Containers are often made from specific materials, such as cloth, plastic, or
+    metal.
+  - Each container typically holds certain types of contents.
+  - The list includes both common household items and items used for storage or transport.
+  - Several containers have specific uses, like a 'bucket' for water or sand.
+  - Words for containers can be varied, like 'tin' and 'packet'.
+  examples:
+  - english: a bag of sweets
+  - english: a barrel of oil
+  - english: a box of chocolates
+  - english: a jar of jam
+  - english: a tube of toothpaste
+  pitfalls:
+  - Some containers have multiple possible materials (e.g., a bag can be cloth, paper,
+    or plastic).
+  - The contents listed are typical, not exhaustive; containers can hold other items
+    too.
+  - Be mindful of the different materials used for the same container (e.g., a box
+    can be cardboard or wood).
+  practicePrompts:
+  - id: containers-and-contents-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write five container-and-content combinations from this unit.
+  - id: containers-and-contents-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group containers from this unit by typical material, such as glass, plastic,
+      or metal.
+  related: []

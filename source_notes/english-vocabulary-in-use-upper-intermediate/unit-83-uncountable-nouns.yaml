@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: uncountable-nouns
+  title: Uncountable nouns
+  order: 83
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on uncountable nouns and explains how they differ from
+    countable nouns in articles, plurals, and common usage.
+  points:
+  - Countable nouns use 'a/an' and can be made plural (e.g., a hat, two hats).
+  - Uncountable nouns are typically not used with 'a/an' or the plural (e.g., information).
+  - Uncountable nouns often group together based on subject or area (e.g., travel,
+    food).
+  - Examples of uncountable nouns include travel, food, advice, knowledge, wealth,
+    information, luggage, and news.
+  - Incorrect use of articles or pluralization with uncountable nouns is a common
+    mistake.
+  - Some words can be countable or uncountable, depending on the meaning (e.g., 'travel'
+    vs. 'a journey').
+  examples:
+  - english: information (NOT an information or some informations)
+  - english: Travel is an uncountable noun, e.g. Travel broadens the mind.
+  - english: She gave me some advice on how to study for the exam.
+  - english: 'I have some news for you: Henry is getting married.'
+  pitfalls:
+  - Avoid using 'a' or 'an' before uncountable nouns (e.g., NOT 'a news').
+  - Do not pluralize uncountable nouns (e.g., NOT 'informations').
+  - Be careful not to use 'a' or 'an' before uncountable nouns like 'weather' (What
+    terrible weather!).
+  practicePrompts:
+  - id: uncountable-nouns-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: List four uncountable nouns from this unit and write a short example for
+      each.
+  - id: uncountable-nouns-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why forms like 'an information' or 'informations' are incorrect.
+  related: []

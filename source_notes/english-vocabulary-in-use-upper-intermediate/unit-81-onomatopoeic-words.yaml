@@ -1,0 +1,46 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: onomatopoeic-words
+  title: Onomatopoeic words
+  order: 81
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces onomatopoeic words and sound patterns that help create
+    associations with noise, movement, and intensity in English.
+  points:
+  - Onomatopoeic words mimic sounds.
+  - Animal sounds often inspire onomatopoeic verbs (e.g., 'meow', 'roar').
+  - The prefix 'gr-' can suggest negativity or discomfort.
+  - The prefix 'cl-' often implies sharpness or a metallic sound.
+  - The prefix 'sp-' is frequently associated with liquids or powders.
+  - The prefix 'wh-' suggests air movement.
+  - The suffix '-ash' often indicates sudden, forceful action.
+  examples:
+  - english: lions roar / cows moo / bees buzz
+  - english: groan / grumble / grumpy / growl
+  - english: click / clang / clip-clop
+  - english: splash / spit / spray / sprinkle / spurt
+  - english: whistle / whizz / wheeze
+  pitfalls:
+  - Be careful not to invent onomatopoeic words; use existing ones.
+  - Consider the connotations of prefixes like 'gr-' - they often imply negative feelings.
+  practicePrompts:
+  - id: onomatopoeic-words-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group examples from this unit by sound pattern, such as 'gr-', 'cl-',
+      'sp-', or 'wh-'.
+  - id: onomatopoeic-words-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples that use onomatopoeic words to describe a noisy
+      scene.
+  related: []

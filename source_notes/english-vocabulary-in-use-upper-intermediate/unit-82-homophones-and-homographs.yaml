@@ -1,0 +1,45 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: homophones-and-homographs
+  title: Homophones and homographs
+  order: 82
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains homophones and homographs and shows how spelling, pronunciation,
+    and meaning can vary even when words look or sound alike.
+  points:
+  - Homophones are words that sound alike but have different meanings and spellings.
+  - Homographs are words that are spelled the same but have different meanings, and
+    may be pronounced differently.
+  - Many homophones are commonly confused in writing.
+  - The pronunciation of some homographs changes depending on their meaning.
+  - Checking the pronunciation of unfamiliar words is helpful when encountering homographs.
+  - Misunderstanding homophones and homographs can lead to humorous misunderstandings.
+  examples:
+  - english: row (end of a row) and roe (fish eggs)
+  - english: row (argument) and row (line of seats)
+  - english: read (past tense) and read (present tense)
+  - english: sow (female pig) and sow (plant seeds)
+  pitfalls:
+  - Confusing 'whether' and 'weather'.
+  - Mispronouncing homographs.
+  - Incorrectly using homophones in writing.
+  practicePrompts:
+  - id: homophones-and-homographs-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two pairs of homophones and explain the difference in meaning.
+  - id: homophones-and-homographs-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one homograph from this unit and show how pronunciation changes
+      with meaning.
+  related: []

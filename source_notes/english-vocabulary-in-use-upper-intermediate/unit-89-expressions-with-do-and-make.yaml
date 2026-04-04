@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-do-and-make
+  title: Expressions with do and make
+  order: 89
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common expressions and phrasal verbs with 'do' and
+    'make' and highlights the different patterns associated with each verb.
+  points:
+  - Phrasal verbs with 'do' and 'make' exist with varied meanings.
+  - Some phrasal verbs have multiple meanings (e.g., 'do up', 'make up', 'make out').
+  - Combinations with 'do' generally relate to activities, duties, or work.
+  - Combinations with 'make' often result in a finished product or outcome.
+  - It's important to note the correct pairings of 'do' and 'make' to avoid common
+    errors.
+  - Many phrasal verbs describe actions that are intended to compensate for or lessen
+    negative feelings.
+  examples:
+  - english: do without
+  - english: make for the city centre
+  - english: make up for the uncomfortable rooms
+  - english: do my homework / make too many mistakes
+  - english: make the best of a difficult situation
+  pitfalls:
+  - Avoid saying 'make my homework'. The correct phrase is 'do my homework'.
+  - Be mindful of which verb ('do' or 'make') is appropriate for the activity being
+    described.
+  - Some phrasal verbs have multiple meanings; ensure you understand the context to
+    interpret them correctly.
+  practicePrompts:
+  - id: expressions-with-do-and-make-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples with 'do' expressions and two with 'make' expressions
+      from this unit.
+  - id: expressions-with-do-and-make-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between one common 'do' expression and one common
+      'make' expression.
+  related: []

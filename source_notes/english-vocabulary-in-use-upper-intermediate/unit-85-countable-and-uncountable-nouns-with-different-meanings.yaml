@@ -1,0 +1,51 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: countable-and-uncountable-nouns-with-different-meanings
+  title: Countable and uncountable nouns with different meanings
+  order: 85
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains how some nouns can be countable or uncountable with
+    different meanings depending on context.
+  points:
+  - Countable nouns can be counted (e.g., glasses), while uncountable nouns represent
+    a general substance or idea (e.g., glass).
+  - Some nouns have different meanings depending on whether they are countable or
+    uncountable, like 'fish' (a fish vs. fish).
+  - Certain words can function as both countable and uncountable, such as 'hair,'
+    'paper,' 'iron,' 'experience,' 'arts,' 'time.'
+  - The use of 'a' or 'an' typically indicates a countable noun, while 'some' is more
+    common with uncountable nouns.
+  - Food items often change meaning based on whether they are countable or uncountable
+    (e.g., 'a chocolate' vs. 'some chocolate').
+  examples:
+  - english: We had fish for dinner.
+  - english: There's a black hair in my soup.
+  - english: Did you buy a paper this morning?
+  - english: Would you like a chocolate?
+  pitfalls:
+  - Don't assume a noun is always countable or uncountable; it can change based on
+    context.
+  - Be aware that some nouns have completely different meanings when used as countable
+    versus uncountable nouns.
+  - Incorrectly using 'a/an' with uncountable nouns is a common mistake.
+  practicePrompts:
+  - id: countable-and-uncountable-nouns-with-different-meanings-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose two nouns from this unit and explain how their meaning changes
+      when they are countable or uncountable.
+  - id: countable-and-uncountable-nouns-with-different-meanings-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two pairs of examples, each showing a countable and an uncountable
+      use of the same noun.
+  related: []

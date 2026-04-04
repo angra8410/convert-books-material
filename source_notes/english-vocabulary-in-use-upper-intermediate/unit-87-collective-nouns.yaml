@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: collective-nouns
+  title: Collective nouns
+  order: 87
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces collective nouns for groups of people, animals, and
+    things and explains how verb agreement can vary with them.
+  points:
+  - Collective nouns describe groups of people or things.
+  - Examples include 'flock,' 'herd,' 'shoal,' and 'swarm'.
+  - The verb agreement (singular or plural) depends on the perspective.
+  - Some collective nouns have specific connotations (e.g., 'gang' implies negativity).
+  - Common groupings include those involved in a job/activity (team, crew, company,
+    cast, staff, public)
+  - Certain collective nouns describe groupings of physical features (row, clump,
+    range).
+  examples:
+  - english: a group of people
+  - english: a flock of sheep
+  - english: a herd of cows
+  - english: A team of reporters was/were at the scene of the disaster.
+  pitfalls:
+  - 'Be mindful of the verb agreement rules: a collective noun can take a singular
+    or plural verb.'
+  - Some collective nouns have negative connotations, like 'gang'.
+  - The same collective noun (like 'pack') can have multiple meanings.
+  practicePrompts:
+  - id: collective-nouns-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: List four collective nouns from this unit and explain what kinds of groups
+      they describe.
+  - id: collective-nouns-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write one example with a collective noun and explain why a singular or
+      plural verb is possible.
+  related: []

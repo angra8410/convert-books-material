@@ -1,0 +1,51 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: words-that-only-occur-in-the-plural
+  title: Words that only occur in the plural
+  order: 84
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces words that only occur in the plural and explains how
+    they behave in meaning and grammar.
+  points:
+  - Some nouns for tools and instruments only occur in the plural, such as 'scissors'
+    and 'pliers'.
+  - Some clothing items commonly occur in the plural, such as 'trousers' and 'pyjamas'.
+  - Certain nouns connected with appearance, surroundings, and activities are plural-only,
+    such as 'looks', 'belongings', and 'savings'.
+  - Some academic subjects and games end in -s but take singular verbs, such as 'physics'
+    and 'billiards'.
+  - Some words look plural but are actually singular in grammar, such as 'news'.
+  - Context matters because plural form does not always mean plural agreement.
+  examples:
+  - english: scissors
+  - english: trousers
+  - english: The news is good.
+  - english: The proceeds of the concert are going to the children's fund.
+  - english: The graphics in this game are amazing!
+  pitfalls:
+  - Don't treat plural-only nouns as if they were plural in number agreement (e.g.,
+    'The news are good' is incorrect).
+  - Avoid mistakenly thinking 'spaghetti' is plural; it's treated as a singular noun.
+  - Remember that words like 'looks' refer to an overall impression and are always
+    plural.
+  practicePrompts:
+  - id: words-that-only-occur-in-the-plural-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: List five plural-only nouns from this unit and group them by category,
+      such as tools, clothes, or abstract ideas.
+  - id: words-that-only-occur-in-the-plural-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why some words ending in -s, such as 'news' or 'physics', do not
+      behave like ordinary plurals.
+  related: []

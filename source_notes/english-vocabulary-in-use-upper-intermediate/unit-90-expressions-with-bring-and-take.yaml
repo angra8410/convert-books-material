@@ -1,0 +1,53 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-bring-and-take
+  title: Expressions with bring and take
+  order: 90
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers phrasal verbs and fixed expressions with 'bring' and 'take',
+    many of which have meanings that are less literal than the base verbs.
+  points:
+  - Expressions with 'bring' often indicate causing something to happen or introducing
+    something.
+  - Expressions with 'take' frequently involve receiving, dealing with, or changing
+    a situation.
+  - The meaning of 'bring' and 'take' phrases can differ significantly from their
+    literal interpretations.
+  - Some 'bring' expressions refer to raising, improving, or persuading someone.
+  - Certain 'take' expressions relate to adopting a skill, liking someone, or experiencing
+    a feeling.
+  - Understanding context is crucial for interpreting the meaning of these phrasal
+    verbs accurately.
+  examples:
+  - english: bring someone up / bring something about / bring taxes down
+  - english: bring someone round
+  - english: take after / take back / take in
+  - english: take off / take over / take up
+  - english: bring to light / bring into force / bring into the open
+  pitfalls:
+  - Confusing 'bring' with 'take' can easily lead to misunderstandings.
+  - The formal equivalents provided can help clarify meaning, but not all expressions
+    have direct synonyms.
+  - Some phrases can have multiple meanings depending on the context.
+  - Literal interpretations of 'bring' and 'take' expressions often don't make sense.
+  practicePrompts:
+  - id: expressions-with-bring-and-take-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using 'bring' expressions and two using 'take'
+      expressions from this unit.
+  - id: expressions-with-bring-and-take-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one phrasal verb with 'bring' and one with 'take' and explain their
+      meanings in context.
+  related: []
