@@ -13,13 +13,31 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This unit introduces vocabulary for literature, the fine arts, and the performing arts. It highlights useful distinctions between artists, art forms, and literary genres.
+  points:
+  - Literature includes poetry, novels, short stories, biographies, and other written forms.
+  - The fine arts include painting, sculpture, architecture, and ceramics.
+  - The performing arts include dance, ballet, drama, opera, cinema, and concerts.
+  - A sculptor creates sculpture, a potter produces pottery, and an architect works in architecture.
+  - Common art categories include portrait, landscape, still life, abstract painting, and original painting.
+  - Literary discussion often uses words such as plot, characters, historical setting, critics, and bestseller.
+  examples:
+  - english: poetry / novels / short stories / biographies
+  - english: painting / sculpture / architecture / ceramics
+  - english: ballet / drama / opera / concerts
+  - english: portrait / landscape / still life / abstract painting
+  - english: plot / characters / historical setting / bestseller
+  pitfalls:
+  - Do not confuse the artist with the work, for example sculptor with sculpture or statue.
+  - Do not use art and arts as if they always meant the same thing.
+  - Do not learn literature words without the genre labels that help classify them.
   practicePrompts:
   - id: art-and-literature-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Write a short response using the key language from 'Art and literature'.
+    prompt: Explain the difference between literature, the fine arts, and the performing arts, using examples from this unit.
+  - id: art-and-literature-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a book, painting, or performance using vocabulary such as plot, characters, portrait, landscape, or abstract painting.
   related: []

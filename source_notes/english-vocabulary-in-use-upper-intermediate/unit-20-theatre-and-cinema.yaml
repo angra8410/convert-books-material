@@ -13,13 +13,31 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This unit introduces vocabulary for theatre and cinema, including productions, performances, reviews, and the language used to describe films and stage events.
+  points:
+  - Theatre vocabulary includes production, sets, costumes, cast, direction, and performance.
+  - Review language includes rave reviews, comedian, entertainer, audience, and viewer.
+  - Film vocabulary includes opening scene, script, dialogue, screenplay, score, and director.
+  - A film or play can be set in a particular place or period and can capture a mood or atmosphere.
+  - Stage, venue, show, and appearance are useful words for talking about arts events more generally.
+  - Words like cinema, theatre, opera, and ballet can be used both generally and for specific events.
+  examples:
+  - english: production / sets / costumes / cast / direction
+  - english: rave reviews / audience / viewer / comedian / entertainer
+  - english: opening scene / script / dialogue / screenplay / score
+  - english: set in Paris / capture the atmosphere
+  - english: stage / venue / show / appearance
+  pitfalls:
+  - Do not confuse cast with costumes or sets; they refer to different parts of a production.
+  - Do not use audience and viewer as if they always referred to the same kind of spectator.
+  - Do not learn theatre and cinema words without the common combinations used in reviews and descriptions.
   practicePrompts:
   - id: theatre-and-cinema-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Write a short response using the key language from 'Theatre and cinema'.
+    prompt: Describe a film or theatre production using vocabulary such as cast, dialogue, score, sets, or rave reviews.
+  - id: theatre-and-cinema-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between general words such as theatre or cinema and the more specific production vocabulary from this unit.
   related: []

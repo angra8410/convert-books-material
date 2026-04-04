@@ -13,13 +13,31 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This unit introduces vocabulary for jobs, work patterns, and employment conditions. It also shows common collocations with job and work and useful expressions for talking about working life.
+  points:
+  - Job titles include executive, director, manager, supervisor, union representative, and unskilled worker.
+  - Job and work are used differently: you get, apply for, or take a job, but you do work or work in a place.
+  - Employment conditions and changes include maternity leave, shifts, promotion, dismissal, and retirement.
+  - Work patterns include part-time work, full-time work, shift work, and nine-to-five work.
+  - Some occupations are described as a trade or a profession.
+  - Useful expressions include earn a living and delegate work.
+  examples:
+  - english: executive, supervisor, union representative
+  - english: get a job / apply for a job / take a job
+  - english: do some plumbing work / work in an office
+  - english: on maternity leave / work shifts / work nine-to-five
+  - english: earn a living / delegate work
+  pitfalls:
+  - Do not use job and work as if they were always interchangeable.
+  - Do not record only the occupation word and ignore the collocations that go with it.
+  - Do not forget that expressions for work conditions often differ across countries and workplaces.
   practicePrompts:
   - id: work-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Write a short response using the key language from 'Work'.
+    prompt: Explain the difference between job and work, using at least two collocations from this unit.
+  - id: work-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a working situation using vocabulary such as shifts, maternity leave, promotion, or nine-to-five.
   related: []

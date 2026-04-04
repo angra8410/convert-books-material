@@ -13,13 +13,31 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This unit introduces vocabulary for sports, equipment, athletics, and competition. It also covers common terms for players, spectators, and sporting results.
+  points:
+  - Sports vocabulary includes activities such as hang-gliding, snowboarding, scuba diving, and archery.
+  - Different sports use different equipment, such as a club, racket, cue, paddle, or bow.
+  - Athletics includes events like the pole vault, discus, javelin, high jump, and marathon.
+  - Competition language includes set a record, hold a record, qualify for, and get knocked out.
+  - People in sport can be described as footballers, swimmers, gymnasts, jockeys, or archers.
+  - Spectators and fans are related ideas, but they are not always exactly the same.
+  examples:
+  - english: hang-gliding / snowboarding / scuba diving
+  - english: club / racket / cue / bow
+  - english: pole vault / javelin / marathon
+  - english: set a record / hold the record / qualify for the semi-final
+  - english: spectator / fan / trophy
+  pitfalls:
+  - Do not mix up sports that use similar equipment, such as billiards, pool, and snooker.
+  - Do not confuse set a record with hold the record.
+  - Do not forget the person word when learning a sport word, for example archer from archery.
   practicePrompts:
   - id: sport-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Write a short response using the key language from 'Sport'.
+    prompt: Compare two sports from this unit and include vocabulary for equipment, people, or competition.
+  - id: sport-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a competition using expressions such as qualify for, get knocked out, trophy, or hold the record.
   related: []

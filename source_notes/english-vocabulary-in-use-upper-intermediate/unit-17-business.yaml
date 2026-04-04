@@ -13,13 +13,31 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This unit introduces vocabulary for starting, running, and expanding a business. It focuses on business plans, markets, customers, competition, and common commercial collocations.
+  points:
+  - A business plan sets out aims, strategy, and priorities for a company.
+  - Businesses can be launched, rolled out, expanded, or run by a corporation or firm.
+  - Companies do business, enter new markets, access customers, and build contacts.
+  - Market research helps identify potential customers and understand demand.
+  - Business language often includes profit, risk, recession, competition, and order books.
+  - Customer care and regular feedback are important parts of business operations.
+  examples:
+  - english: put forward a business plan / launch a business
+  - english: roll out an expanded range / manufacture machines
+  - english: enter new markets / build contacts
+  - english: market research / potential customers / customer care
+  - english: make a profit / face stiff competition / take a risk
+  pitfalls:
+  - Do not treat business plan as a general idea; it refers to a concrete plan for the business.
+  - Do not confuse customers with markets; one is the people, the other is the commercial area.
+  - Do not learn profit, risk, and competition in isolation without their common verb combinations.
   practicePrompts:
   - id: business-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Write a short response using the key language from 'Business'.
+    prompt: Describe how a company could launch a new product, using vocabulary such as business plan, market research, and potential customers.
+  - id: business-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how a business might respond to recession or stiff competition, using at least two collocations from this unit.
   related: []
