@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: formal-and-informal-words-1
+  title: Formal and informal words 1
+  order: 95
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces formal and informal vocabulary and shows how word
+    choice changes tone, distance, and politeness.
+  points:
+  - Formality relates to the relationship between the speaker/writer and the audience.
+  - Formal language shows respect, politeness, or distance, while informal language
+    conveys friendliness and closeness.
+  - Words can be arranged on a scale from formal to neutral to informal.
+  - Many formal words have Latin or Greek origins and are often longer than their
+    neutral or informal equivalents.
+  - Formal phrases are common in academic and official contexts.
+  - Formal language is frequently found in notices, instructions, and signs.
+  examples:
+  - english: '''offspring'' (formal) vs. ''children'' (neutral) vs. ''kids'' (informal)'
+  - english: '''abode'' (formal) vs. ''house'' (neutral) vs. ''place'' (informal)'
+  - english: '''go amiss'' (formal) vs. ''go wrong'' (neutral) vs. ''go pear-shaped''
+      (informal)'
+  - english: '''utilise'' (formal) vs. ''use'' (neutral)'
+  pitfalls:
+  - Avoid using informal language just to appear fluent or clever.
+  - Be mindful of the formality level when translating between languages, as direct
+    equivalents might not exist.
+  - Ensure you understand the meaning of formal words in notices and instructions
+    to accurately convey the information.
+  practicePrompts:
+  - id: formal-and-informal-words-1-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Rewrite two informal expressions from this unit in a more formal way.
+  - id: formal-and-informal-words-1-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one formal word and one informal word from this unit and explain
+      when each is more suitable.
+  related: []

@@ -1,0 +1,45 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: similes
+  title: Similes
+  order: 97
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces similes and shows how fixed comparisons can add colour,
+    emphasis, and informality to English.
+  points:
+  - Similes are comparisons using 'as...as' or 'like'.
+  - Fixed similes are common phrases that are often informal and can be humorous.
+  - Some similes are negative and might be considered offensive (* indicates these).
+  - Similes can be memorable through their sound patterns or by pairing opposites.
+  - The word 'like' can also introduce comparisons, similar to 'as...as'.
+  - 'Similes using ''as...as'' can often be extended: ''as...as can be''.'
+  examples:
+  - english: as blind as a bat
+  - english: as thin as a rake
+  - english: as strong as an ox
+  - english: as white as snow
+  - english: as mad as a hatter
+  pitfalls:
+  - Be mindful of potentially offensive similes marked with *.
+  - Fixed similes are generally informal; consider your audience.
+  - Understand the literal meaning of some similes to grasp their intended meaning
+    (e.g., 'as sick as a dog').
+  practicePrompts:
+  - id: similes-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write three examples using similes from this unit.
+  - id: similes-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one simile from this unit and explain what quality it emphasises.
+  related: []

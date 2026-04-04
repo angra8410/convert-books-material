@@ -1,0 +1,52 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-other-common-verbs
+  title: Expressions with other common verbs
+  order: 94
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on expressions with other common verbs such as 'look',
+    'see', 'run', 'turn', 'let', and 'break'.
+  points:
+  - Verbs like 'look,' 'see,' 'run,' 'turn,' 'let,' and 'break' frequently appear
+    in idiomatic expressions.
+  - The meaning of these expressions often differs significantly from the verb's literal
+    meaning.
+  - Expressions can describe actions, feelings, or situations in a more nuanced way.
+  - Recognizing these expressions improves both comprehension and the ability to express
+    oneself more precisely.
+  - Formal correspondence often uses expressions like 'look forward to hearing from
+    you'.
+  - Pay attention to the prepositions that accompany these verbs, as they significantly
+    alter the meaning.
+  examples:
+  - english: look forward to / look into / look down on
+  - english: see someone off / see through
+  - english: run into difficulties / run out of time
+  - english: turn down / turn out / turn up
+  - english: break down / break out / break up
+  pitfalls:
+  - Don't assume the literal meaning of a verb when used in an expression.
+  - Be careful with prepositions; changing them can completely change the expression's
+    meaning.
+  - Some expressions have formal or informal connotations; consider the context.
+  practicePrompts:
+  - id: expressions-with-other-common-verbs-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using expressions with different common verbs
+      from this unit.
+  - id: expressions-with-other-common-verbs-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one expression from this unit and explain why its meaning is not
+      obvious from the verb alone.
+  related: []

@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-get
+  title: Expressions with get
+  order: 91
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common expressions and phrasal verbs with 'get' and
+    shows how the verb changes meaning across many contexts.
+  points:
+  - '''Get'' has basic meanings including receive, change position, and change state.'
+  - It frequently appears in more specific meanings, like preparing a meal or understanding
+    something.
+  - Phrasal verbs using 'get' add nuanced meanings like 'get across' (communicate),
+    'get behind with' (fall behind), and 'get over' (recover).
+  - '''Get'' is used in various expressions, such as ''get together'' (informal meeting)
+    and ''get one''s own back'' (revenge).'
+  - Understanding the diverse uses of 'get' is crucial for comprehending spoken English
+    and common idioms.
+  examples:
+  - english: get a sandwich / get a text / get top marks
+  - english: get home / get better / get dinner
+  - english: get my point across
+  - english: get behind with my work / get down to some work
+  - english: get into university / get-together
+  pitfalls:
+  - The many meanings of 'get' can be confusing, so pay attention to context.
+  - Some 'get' expressions are very informal, and alternatives may be preferred in
+    formal situations.
+  - Be careful not to overuse 'get', as it can make your language sound repetitive.
+  practicePrompts:
+  - id: expressions-with-get-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using basic meanings of 'get' and two using phrasal
+      verbs from this unit.
+  - id: expressions-with-get-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one expression with 'get' from this unit and explain its meaning
+      in context.
+  related: []

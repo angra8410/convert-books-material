@@ -1,0 +1,51 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-set-and-put
+  title: Expressions with set and put
+  order: 92
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers common expressions and phrasal verbs with 'set' and 'put'
+    and explains how their meanings shift in context.
+  points:
+  - Phrasal verbs with 'set' often involve starting or establishing something, or
+    reserving resources.
+  - Phrasal verbs with 'put' frequently relate to actions like proposing, submitting,
+    or assembling.
+  - The meanings of 'set' and 'put' can significantly change depending on the accompanying
+    word.
+  - Many expressions with 'set' and 'put' are idiomatic, meaning their literal definition
+    doesn't reflect their actual usage.
+  - Some phrasal verbs, like 'set up' or 'put on', have multiple, distinct meanings.
+  - Understanding the context is crucial for correctly interpreting the meaning of
+    these phrasal verbs.
+  examples:
+  - english: Robert had been setting aside money for her wedding.
+  - english: She put her own name forward for election.
+  - english: She agreed to help put together some new flat-pack furniture.
+  - english: The prisoner will be set free tomorrow.
+  pitfalls:
+  - Don't assume the literal meaning of 'set' and 'put' applies - many are idiomatic.
+  - Be careful to identify whether a phrasal verb is separable or inseparable, as
+    this affects word order.
+  - Some phrasal verbs share similar meanings, making it vital to understand the context.
+  practicePrompts:
+  - id: expressions-with-set-and-put-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using expressions with 'set' and two using expressions
+      with 'put'.
+  - id: expressions-with-set-and-put-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one phrasal verb with 'set' and one with 'put' and explain how
+      context changes their meaning.
+  related: []

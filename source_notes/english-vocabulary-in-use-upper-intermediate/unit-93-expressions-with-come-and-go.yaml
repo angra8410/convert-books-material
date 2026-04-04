@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: expressions-with-come-and-go
+  title: Expressions with come and go
+  order: 93
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common expressions with 'come' and 'go' and shows
+    how they are used in literal and more idiomatic ways.
+  points:
+  - Expressions with 'come' often indicate arrival, occurrence, or unexpected discovery.
+  - Expressions with 'go' frequently denote movement, continuation, or completion.
+  - '''Come to'' frequently indicates reaching a state or agreement.'
+  - '''Come into'' often signifies acquiring something or starting a process.'
+  - Many 'go' expressions have multiple meanings, requiring careful consideration
+    of context.
+  - Several idiomatic expressions combine 'come' and 'go' to convey nuanced meanings
+    related to success, activity, or acceptance.
+  examples:
+  - english: come off / come to an end / come into a fortune
+  - english: go on working / go through / go without saying
+  - english: come round / come up with
+  - english: go ahead / go back on / go under
+  - english: It goes without saying that ...
+  pitfalls:
+  - Be aware that 'go' expressions can have multiple meanings depending on the context.
+  - Distinguish between 'come to' (reaching a state) and 'come into' (acquiring or
+    starting).
+  - Pay attention to the subtle differences in meaning when choosing between similar
+    'come' and 'go' expressions.
+  practicePrompts:
+  - id: expressions-with-come-and-go-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using expressions with 'come' and two using expressions
+      with 'go'.
+  - id: expressions-with-come-and-go-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between one 'come' expression and one 'go' expression
+      from this unit.
+  related: []

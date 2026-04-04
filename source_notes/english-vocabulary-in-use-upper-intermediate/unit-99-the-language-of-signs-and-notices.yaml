@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: the-language-of-signs-and-notices
+  title: The language of signs and notices
+  order: 99
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on the language of signs and notices and shows how official
+    wording often differs from ordinary everyday English.
+  points:
+  - Signs and notices often employ specialized language.
+  - The unit provides 'translations' of signs into more common English.
+  - Notices may state rules and consequences for breaking them.
+  - Some signs provide information about services or locations.
+  - Phrases like 'You can be taken to court' indicate legal action.
+  examples:
+  - english: Get off here for Buckingham Palace.
+  - english: Under 18s must be accompanied by an adult.
+  - english: Smoking can seriously damage your health.
+  - english: Trespassers will be prosecuted.
+  - english: Out of order / Staff only / Keep off the grass
+  pitfalls:
+  - The language used in signs can be formal and less conversational.
+  - Direct translations of signs can be confusing if they miss the intended meaning.
+  - Understanding legal phrasing, such as 'taken to court,' is important.
+  practicePrompts:
+  - id: the-language-of-signs-and-notices-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Rewrite two formal notices from this unit in ordinary everyday English.
+  - id: the-language-of-signs-and-notices-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short sign or notice messages using the style of this unit.
+  related: []

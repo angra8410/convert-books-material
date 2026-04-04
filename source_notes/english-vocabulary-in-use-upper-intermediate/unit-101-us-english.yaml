@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: us-english
+  title: US English
+  order: 101
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces key differences between US English and British English
+    in spelling, vocabulary, pronunciation, and a few areas of grammar.
+  points:
+  - Pronunciation is a key difference between American and British English.
+  - American English often simplifies spellings (e.g., -our becomes -or, -ise becomes
+    -ize).
+  - 'Vocabulary varies: ''garbage'' (AmE) vs. ''rubbish'' (BrE), ''truck'' (AmE) vs.
+    ''lorry'' (BrE).'
+  - Some words have different meanings in American and British English, potentially
+    causing confusion.
+  examples:
+  - english: colour / color ; centre / center ; realise / realize
+  - english: gas(oline) / petrol ; truck / lorry ; baggage / luggage
+  - english: sidewalk / pavement ; apartment / flat
+  - english: parking lot / car park ; flashlight / torch
+  - english: cookie / biscuit ; French fries / chips
+  pitfalls:
+  - Be aware that 'the second floor' means different floors in American and British
+    English.
+  - The word 'bill' has different meanings, referring to a check in American English
+    and a receipt in British English.
+  - The term 'pants' means trousers in British English and underpants in American
+    English, so context is crucial.
+  practicePrompts:
+  - id: us-english-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: List five British and American English equivalents from this unit.
+  - id: us-english-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain one spelling difference and one vocabulary difference between
+      British and American English.
+  related: []

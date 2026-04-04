@@ -1,0 +1,44 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: formal-and-informal-words-2
+  title: Formal and informal words 2
+  order: 96
+  cefr:
+  - B2
+  tags: []
+  summary: This unit continues the study of formal and informal vocabulary, focusing
+    on clippings, slang, and highly informal everyday words.
+  points:
+  - Informal language often uses monosyllabic words (words with one syllable).
+  - Clippings are shortened forms of words that are generally less formal.
+  - Slang is highly informal and can add color to speech but should be used cautiously.
+  - Slang changes rapidly and can sometimes be offensive.
+  - It's safer to recognize slang passively (understanding it when you hear it) rather
+    than actively (using it yourself).
+  - Shortened words often end in '-y' or '-ie'.
+  examples:
+  - english: The cops have arrived. [police]
+  - english: The house has two loos. [toilets]
+  - english: I'll get a cab from the station. [taxi]
+  - english: What's on telly tonight? [television]
+  pitfalls:
+  - Slang can quickly become outdated.
+  - Using slang inappropriately can be offensive.
+  - Relying on informal language in formal settings can be perceived as unprofessional.
+  practicePrompts:
+  - id: formal-and-informal-words-2-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Replace four informal words from this unit with more formal equivalents.
+  - id: formal-and-informal-words-2-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why slang is often safer to recognise passively than to use actively.
+  related: []

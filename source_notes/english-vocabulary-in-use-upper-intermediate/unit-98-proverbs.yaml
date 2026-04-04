@@ -1,0 +1,46 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: proverbs
+  title: Proverbs
+  order: 98
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common proverbs and explains how they are used to
+    comment on situations, give advice, or express warnings.
+  points:
+  - Proverbs are often used to comment on situations or events.
+  - Many proverbs use animal imagery or metaphors.
+  - Proverbs often offer advice or warnings.
+  - Some proverbs can be paraphrased to explain their meaning.
+  - People often use only part of a proverb, expecting the listener to complete it.
+  examples:
+  - english: Don't count your chickens before they hatch.
+  - english: Don't put all your eggs in one basket.
+  - english: Never look a gift-horse in the mouth.
+  - english: Take care of the pennies and the pounds will take care of themselves.
+  pitfalls:
+  - Proverbs often use figurative language, so understanding them requires interpreting
+    the underlying meaning.
+  - The literal translation of a proverb can be confusing or nonsensical.
+  - Sometimes, only part of a proverb is used, requiring the listener to complete
+    it.
+  practicePrompts:
+  - id: proverbs-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose two proverbs from this unit and explain the practical advice each
+      one gives.
+  - id: proverbs-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short situations where one of the proverbs from this unit would
+      be appropriate.
+  related: []

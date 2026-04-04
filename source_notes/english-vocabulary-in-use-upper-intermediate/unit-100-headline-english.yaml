@@ -1,0 +1,46 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: headline-english
+  title: Headline English
+  order: 100
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains how headline English uses short grammar, dramatic vocabulary,
+    and compressed structures to attract attention.
+  points:
+  - Headlines often omit grammar words like articles and auxiliary verbs to be concise.
+  - The present simple tense is frequently used in headlines.
+  - The infinitive form of a verb can indicate a future event.
+  - Newspapers prefer shorter, more dramatic words.
+  - Headlines may use abbreviations, such as PM for Prime Minister.
+  - Newspapers sometimes incorporate jokes and puns into headlines.
+  examples:
+  - english: EARLY CUT IN INTEREST RATES FORECAST
+  - english: MAYOR OPENS HOSPITAL
+  - english: PRESIDENT TO VISIT FLOOD AREAS
+  - english: PM IN ROW OVER TAX PLANS
+  - english: Headlines often omit articles and auxiliary verbs.
+  pitfalls:
+  - Be aware that headlines often omit grammar words, which can make them difficult
+    to understand out of context.
+  - The use of dramatic vocabulary can sometimes be misleading if taken literally.
+  - Jokes in headlines can be culturally specific and may be lost on some readers.
+  practicePrompts:
+  - id: headline-english-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short newspaper-style headlines using patterns from this unit.
+  - id: headline-english-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one headline feature from this unit and explain how it makes headlines
+      shorter or more dramatic.
+  related: []
