@@ -202,4 +202,16 @@ python tools/import_notes.py `
   --chapter-order-min 71 `
   --chapter-order-max 80
 ```
+## Batch 9 import preview
+
+Use this command to preview B2 units 81 to 90 before writing or merging a larger catalog update:
+
+```powershell
+python tools/import_notes.py `
+  --preview `
+  --preview-detailed `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 81 `
+  --chapter-order-max 90
+```
 
