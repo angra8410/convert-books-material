@@ -37,8 +37,8 @@ chapter:
   - id: using-your-dictionary-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Imagine you are explaining to a new learner what a dictionary can show
-      them. Describe three key features.
+    prompt: Explain three kinds of information a good learner's dictionary can show
+      beyond a basic definition.
   - id: using-your-dictionary-prompt-2
     type: open_text
     targetSkill: VOCABULARY
