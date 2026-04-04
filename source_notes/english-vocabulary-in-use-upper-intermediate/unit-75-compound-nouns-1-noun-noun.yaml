@@ -1,0 +1,49 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: compound-nouns-1-noun-noun
+  title: 'Compound nouns 1: noun + noun'
+  order: 75
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains how compound nouns formed from noun + noun patterns
+    are written, stressed, and understood in English.
+  points:
+  - A compound noun is formed by combining two or more words to act as a noun.
+  - Compound nouns can be written as two separate words (e.g., car park), with a hyphen
+    (e.g., self-control), or as one word (e.g., earring).
+  - The meaning of a compound noun is usually clear if you understand both words (e.g.,
+    tin opener).
+  - Stress in compound nouns often falls on the first word, but can occasionally be
+    on the second.
+  - Compound nouns can be countable, uncountable, or used only in the singular or
+    plural.
+  examples:
+  - english: car park
+  - english: human being
+  - english: tin opener
+  - english: self-control
+  - english: earring
+  pitfalls:
+  - There are no strict rules for how to write compound nouns; variations exist.
+  - Dictionaries sometimes differ on how to write the same compound noun.
+  - Understanding the individual words doesn't always guarantee understanding the
+    compound noun's meaning.
+  practicePrompts:
+  - id: compound-nouns-1-noun-noun-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four compound nouns from this unit and explain what each one means.
+  - id: compound-nouns-1-noun-noun-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why compound nouns can be difficult to write consistently and
+      how a dictionary helps.
+  related: []

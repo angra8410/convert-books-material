@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: prefixes
+  title: Prefixes
+  order: 71
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common prefixes that change meaning, create opposites,
+    and help form new words in English.
+  points:
+  - Prefixes are frequently used to create opposites of adjectives (e.g., fair/unfair).
+  - The prefixes 'in-', 'im-', 'ir-', and 'il-' change form before words beginning
+    with 'm', 'p', 'r', and 'l' respectively (e.g., immature, irregular, illegal).
+  - Prefixes 'un-' and 'dis-' often reverse the action of verbs (e.g., tie/untie,
+    appear/disappear).
+  - Some words with prefixes may use a hyphen, so consulting a dictionary is recommended.
+  - Prefixes can have multiple meanings beyond creating opposites, such as indicating
+    'inside' or 'into' (e.g., internal, import).
+  examples:
+  - english: fair / unfair
+  - english: experienced / inexperienced
+  - english: irregular / illegal / impossible
+  - english: tie / untie
+  - english: appear / disappear
+  pitfalls:
+  - The prefix 'in-' doesn't always create a negative meaning.
+  - Spelling changes occur with prefixes like 'in-' (to 'im-', 'ir-', 'il-') depending
+    on the following letter.
+  practicePrompts:
+  - id: prefixes-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group five words from this unit by prefix and explain how the prefix changes
+      the meaning.
+  - id: prefixes-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples showing the difference between a negative prefix
+      and a prefix with another meaning, such as 'in-' in 'internal'.
+  related: []

@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: abbreviations-and-acronyms
+  title: Abbreviations and acronyms
+  order: 78
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains abbreviations, acronyms, and clippings and shows how
+    they are pronounced and used in different contexts.
+  points:
+  - Abbreviations can be pronounced as individual letters or as complete words (acronyms).
+  - Acronyms are often so familiar that they are no longer considered abbreviations
+    and are written in lowercase.
+  - Clippings are shortened, informal versions of words.
+  - Written abbreviations are frequently used in formal writing, such as letters and
+    invitations.
+  - Stress placement changes when abbreviations are stressed words in a sentence;
+    the stress falls on the last letter.
+  - Many acronyms originate from organizations, but some represent concepts or technologies.
+  examples:
+  - english: CIA / BBC
+  - english: NATO
+  - english: laser / radar / scuba / sonar
+  - english: air con
+  - english: RIP
+  pitfalls:
+  - Remember that some abbreviations are pronounced letter by letter, while others
+    are pronounced as words (acronyms).
+  - Be aware that some acronyms have become so common that they are no longer written
+    in capital letters.
+  - Don't confuse clippings with more formal terms; use them appropriately in informal
+    situations.
+  practicePrompts:
+  - id: abbreviations-and-acronyms-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group five items from this unit into abbreviations, acronyms, and clippings.
+  - id: abbreviations-and-acronyms-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why some acronyms eventually start to look like ordinary words.
+  related: []

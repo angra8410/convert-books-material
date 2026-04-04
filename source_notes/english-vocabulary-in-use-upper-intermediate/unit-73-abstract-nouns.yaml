@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: abstract-nouns
+  title: Abstract nouns
+  order: 73
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on abstract nouns, how they are formed, and how they
+    are used to talk about ideas, qualities, and states rather than physical things.
+  points:
+  - Abstract nouns refer to concepts, feelings, or qualities, not physical objects.
+  - Common suffixes for forming abstract nouns include -ment, -ion, -ness, and -ity.
+  - -ment and -ion are typically derived from verbs, while -ness and -ity are derived
+    from adjectives.
+  - Suffixes like -ship, -dom, -th, and -hood are also used to create abstract nouns.
+  - The definite article ('the') is generally not used before abstract nouns, e.g.,
+    'Love is blind'.
+  - Recognizing abstract nouns helps in understanding more complex vocabulary and
+    sentence structures.
+  examples:
+  - english: advice, happiness, intention, (in)justice are abstract nouns.
+  - english: achievement, affection, carelessness, activity
+  - english: boredom, breadth, adulthood
+  - english: Love is blind.
+  pitfalls:
+  - Avoid using 'the' before abstract nouns (e.g., 'The love is blind' is incorrect).
+  - Be mindful of suffix variations, like -ion sometimes becoming -tion or -sion.
+  - Mixing up abstract nouns with concrete nouns can lead to confusion.
+  practicePrompts:
+  - id: abstract-nouns-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group six abstract nouns from this unit by suffix and explain what each
+      group has in common.
+  - id: abstract-nouns-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples that use abstract nouns correctly without unnecessary
+      articles.
+  related: []

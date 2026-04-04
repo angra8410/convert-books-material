@@ -1,0 +1,47 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: roots
+  title: Roots
+  order: 72
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explores common Latin roots in English and shows how they help
+    learners recognise meaning, word families, and more formal vocabulary.
+  points:
+  - Many English verbs are formed from Latin roots.
+  - Words with Latin roots are often considered formal.
+  - The Latin root 'DUC/DUCT' means 'lead'.
+  - The Latin root 'PONE/POSE' means 'place' or 'put'.
+  - The Latin root 'PORT' means 'carry' or 'take'.
+  - Latin roots can be used to form nouns as well as verbs.
+  examples:
+  - english: conduct / induce / reduce
+  - english: postpone / deposit / compose
+  - english: import / export / transport
+  - english: He conducted the orchestra with great vigour.
+  - english: Britain imports cotton and exports wool.
+  pitfalls:
+  - Be mindful of the formal tone when using verbs with Latin roots.
+  - Pay attention to variations within a root (e.g., DUC vs. DUCT).
+  - Consider the nuanced differences between a verb and its noun form derived from
+    the same root.
+  practicePrompts:
+  - id: roots-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one root from this unit and list several related words built from
+      it.
+  - id: roots-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why words from Latin roots often sound more formal than simpler
+      alternatives.
+  related: []

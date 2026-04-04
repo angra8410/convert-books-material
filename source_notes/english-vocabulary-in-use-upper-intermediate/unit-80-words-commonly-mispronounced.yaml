@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: words-commonly-mispronounced
+  title: Words commonly mispronounced
+  order: 80
+  cefr:
+  - B2
+  tags: []
+  summary: This unit highlights common pronunciation problems in English, including
+    vowel sounds, silent letters, and stress patterns.
+  points:
+  - English vowel sounds can be represented by many different letters.
+  - Several letters are commonly silent in English words.
+  - The stress pattern in two-syllable words can change depending on whether it's
+    a noun or a verb.
+  - Multi-syllable words often have stress on the third syllable from the end.
+  - Apostrophe, catastrophe, and cupboard are examples of words often mispronounced.
+  - Understanding phonetic transcriptions can aid in correct pronunciation.
+  examples:
+  - english: a in 'cat' / 'about'
+  - english: b silent in 'comb'
+  - english: noun-verb stress shift in 'conduct'
+  - english: stress pattern in 'photograph'
+  - english: silent letters in 'knight' and 'honest'
+  pitfalls:
+  - The letter 'r' can be silent in some varieties of English.
+  - Vowel letters often have multiple pronunciations.
+  - Silent letters can be easily missed.
+  - Stress patterns can be unpredictable, even for native speakers.
+  practicePrompts:
+  - id: words-commonly-mispronounced-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: List three pronunciation problems from this unit and explain what makes
+      each one difficult.
+  - id: words-commonly-mispronounced-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples showing how stress can change between noun and
+      verb forms.
+  related: []

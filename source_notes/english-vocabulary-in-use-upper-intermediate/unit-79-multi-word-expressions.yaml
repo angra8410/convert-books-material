@@ -1,0 +1,47 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: multi-word-expressions
+  title: Multi-word expressions
+  order: 79
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on multi-word expressions and explains why they should
+    be learned as complete units rather than as separate words.
+  points:
+  - Multi-word expressions often have meanings that are not clear from their individual
+    words.
+  - Always record the complete expression, including grammatical information and collocations.
+  - Informal multi-word expressions should be used cautiously and appropriately.
+  - Multi-word expressions can be grouped by grammar, meaning, or key words.
+  - The grammar of multi-word expressions can vary, and some are more fixed than others.
+  - Observe expressions in context and consult dictionaries with care.
+  examples:
+  - english: to feel under the weather
+  - english: This tin opener has seen better days.
+  - english: be over the moon
+  - english: He's as daft as a brush.
+  - english: I think we should make a move.
+  pitfalls:
+  - Avoid using informal expressions to simply appear fluent.
+  - Be aware of the potential for misinterpretation if used incorrectly.
+  - Don't assume the meaning of a multi-word expression is obvious from its components.
+  practicePrompts:
+  - id: multi-word-expressions-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose three multi-word expressions from this unit and write a short example
+      for each.
+  - id: multi-word-expressions-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why learners should record the grammar and context of a multi-word
+      expression, not just its meaning.
+  related: []

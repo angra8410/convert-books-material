@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: compound-adjectives
+  title: Compound adjectives
+  order: 74
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces compound adjectives and shows how they are formed,
+    written, and used to describe people, things, and situations.
+  points:
+  - Compound adjectives typically consist of two parts and are often hyphenated.
+  - The second part is often a present or past participle (-ing or -ed).
+  - They can describe personal appearance (e.g., curly-haired), personality (e.g.,
+    easy-going), or specific situations (e.g., all-out).
+  - Some compound adjectives behave differently depending on their position in a sentence.
+  - Certain compound adjectives use prepositions or particles (e.g., well-off, hard-up).
+  - The form of compound adjectives can be varied (e.g., curly-haired, long-haired).
+  examples:
+  - english: well-dressed
+  - english: never-ending
+  - english: sky-blue
+  - english: rosy-cheeked
+  - english: easy-going
+  pitfalls:
+  - Be careful with hyphenation - some compound adjectives use a hyphen before a noun
+    but not after a verb (e.g., a well-dressed man vs. He is always well dressed).
+  - The meaning of a compound adjective is derived from its parts, so understand the
+    individual word meanings.
+  - Informal compound adjectives like 'stuck-up' should be used with caution in formal
+    contexts.
+  practicePrompts:
+  - id: compound-adjectives-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a person or place using at least three compound adjectives from
+      this unit.
+  - id: compound-adjectives-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why some compound adjectives use a hyphen before a noun but not
+      after a linking verb.
+  related: []

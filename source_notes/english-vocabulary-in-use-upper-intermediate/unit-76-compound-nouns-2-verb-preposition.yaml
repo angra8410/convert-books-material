@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: compound-nouns-2-verb-preposition
+  title: 'Compound nouns 2: verb + preposition'
+  order: 76
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers compound nouns formed from verb + preposition combinations,
+    especially those linked to phrasal verbs and journalistic style.
+  points:
+  - Compound nouns are often formed from phrasal verbs.
+  - These compound nouns frequently have an informal feel, especially in reporting.
+  - The meaning of the compound noun is often related to the original phrasal verb.
+  - The plural form is typically created by adding 's' to the end.
+  - These nouns are common in contexts like journalism, economics, and describing
+    modern life.
+  examples:
+  - english: There was a walkout at the factory. [strike]
+  - english: Last month saw a tremendous shake-up in personnel. [change]
+  - english: We're trying to find some new outlets for our products. [places to sell]
+  - english: There are drawbacks as well as advantages to every situation. [negative
+      aspects]
+  pitfalls:
+  - Be aware that the meaning of the compound noun may be different from the individual
+    verb and preposition.
+  - Don't assume all compound nouns formed from verb + preposition are informal -
+    some can be used in more formal settings.
+  - Remember to add 's' to form the plural, e.g., workouts.
+  practicePrompts:
+  - id: compound-nouns-2-verb-preposition-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using compound nouns from this unit in news or
+      business contexts.
+  - id: compound-nouns-2-verb-preposition-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose two compound nouns from this unit and explain how they relate to
+      their original phrasal verbs.
+  related: []

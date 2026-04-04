@@ -1,0 +1,47 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: binomials
+  title: Binomials
+  order: 77
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces binomials, fixed two-word expressions whose order
+    is usually stable and often supported by sound or meaning patterns.
+  points:
+  - Binomials are typically joined by the conjunction 'and'.
+  - The order of words in a binomial is usually fixed.
+  - Binomials can be identified by repetition of sounds or rhyme.
+  - Some binomials consist of near synonyms.
+  - Binomials can be formed using grammar words (e.g., 'here and there').
+  examples:
+  - english: odds and ends
+  - english: give and take
+  - english: part and parcel
+  - english: rack and ruin
+  - english: peace and quiet
+  pitfalls:
+  - The order of words in binomials is crucial; reversing them changes or destroys
+    the meaning.
+  - Not all pairs of words joined by 'and' are binomials. Consider the context and
+    meaning.
+  - Binomials in one language might not have the same order in another.
+  practicePrompts:
+  - id: binomials-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write three examples of binomials from this unit and explain why their
+      order should not be changed.
+  - id: binomials-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group binomials from this unit by rhyme, alliteration, or near-synonym
+      meaning.
+  related: []
