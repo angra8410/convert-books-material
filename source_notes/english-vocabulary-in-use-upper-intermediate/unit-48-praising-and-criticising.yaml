@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: praising-and-criticising
+  title: Praising and criticising
+  order: 48
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for praising and criticising people, actions, and performances. It also includes useful comparison idioms and meanings of critical.
+  points:
+  - Praise vocabulary includes praise, highly praised, brilliant, outstanding, and out of this world.
+  - Criticism vocabulary includes criticise, run down, and idioms such as takes the biscuit.
+  - Comparison expressions include streets ahead and head and shoulders above.
+  - Critical can mean important, severe, or fault-finding depending on context.
+  - Positive and negative judgments often depend on collocations rather than single words.
+  - Idiomatic criticism is often stronger and more informal than direct criticism.
+  examples:
+  - english: praise / highly praised / brilliant / outstanding
+  - english: criticise / run down / takes the biscuit
+  - english: streets ahead / head and shoulders above / out of this world
+  - english: critical issue / critical report / critical of someone
+  pitfalls:
+  - Do not assume critical always has a negative meaning.
+  - Do not use idioms such as takes the biscuit in very formal contexts.
+  - Do not confuse praising language with comparison language; they often overlap but are not identical.
+  practicePrompts:
+  - id: praising-and-criticising-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Praise or criticise something using vocabulary such as highly praised, outstanding, run down, or critical.
+  - id: praising-and-criticising-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between praise and criticism, using examples from this unit.
+  related: []

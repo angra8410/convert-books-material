@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: what-your-body-does
+  title: What your body does
+  order: 47
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for bodily actions and reactions, grouped by parts of the body and common situations.
+  points:
+  - Body-action verbs include cough, sneeze, yawn, sigh, chew, lick, blink, wink, and stretch.
+  - Some verbs have related nouns, such as cough and a cough.
+  - Formal and informal alternatives can differ, for example perspire and sweat.
+  - These verbs often describe common physical reactions, habits, and involuntary actions.
+  - Some vocabulary is especially useful for describing facial expressions and breathing.
+  - Body-action words often come in semantic groups rather than isolated items.
+  examples:
+  - english: cough / sneeze / yawn / sigh / snore
+  - english: chew / lick / swallow / bite
+  - english: blink / wink / stare / yawn
+  - english: perspire / sweat / shiver / tremble
+  pitfalls:
+  - Do not assume all body-action verbs form nouns in the same way.
+  - Do not confuse formal alternatives such as perspire with everyday words such as sweat.
+  - Do not ignore the body part or physical situation that usually goes with the verb.
+  practicePrompts:
+  - id: what-your-body-does-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a physical reaction using vocabulary such as cough, sigh, chew, blink, or sweat.
+  - id: what-your-body-does-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two body-action verbs from this unit and give an example of each.
+  related: []

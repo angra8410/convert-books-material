@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: describing-objects
+  title: Describing objects
+  order: 41
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for describing objects, materials, and physical qualities. It also includes adjective-noun pairs and common spoken intensifiers.
+  points:
+  - Opposites include artificial and natural, vivid and sombre, transparent and opaque, stiff and flexible.
+  - Object-description vocabulary also includes delicate, tough, fragile, sturdy, genuine, and fake.
+  - Some adjectives have related nouns such as decency, precision, severity, solidity, and triviality.
+  - These words can describe both physical objects and more abstract qualities.
+  - Spoken English often uses modifiers such as great big, reasonably good, pretty thick, and nowhere near as.
+  - Descriptions often depend on contrast pairs rather than isolated words.
+  examples:
+  - english: artificial / natural / vivid / sombre / transparent / opaque
+  - english: delicate / tough / fragile / sturdy / stiff / flexible
+  - english: genuine / fake / solid oak / precise measurements
+  - english: great big / reasonably good / pretty thick / nowhere near as
+  pitfalls:
+  - Do not confuse fragile with flexible or delicate with weak.
+  - Do not use fake when you mean simply poor quality; it means not genuine.
+  - Do not ignore the spoken modifiers that often go with descriptive adjectives.
+  practicePrompts:
+  - id: describing-objects-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe an object using vocabulary such as fragile, opaque, sturdy, vivid, or fake.
+  - id: describing-objects-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two opposite adjectives from this unit and give an example for each.
+  related: []

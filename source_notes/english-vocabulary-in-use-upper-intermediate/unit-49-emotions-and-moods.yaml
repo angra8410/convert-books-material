@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: emotions-and-moods
+  title: Emotions and moods
+  order: 49
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces informal fixed expressions for emotions, moods, and physical states. It focuses on figurative language that is especially common in speech and informal writing.
+  points:
+  - Many expressions describe happiness and excitement, such as on cloud nine and in high spirits.
+  - Others describe sadness, anger, or irritation, such as have a long face and throw a wobbly.
+  - Some expressions describe tiredness or physical condition, such as done in or as fit as a fiddle.
+  - These expressions are often figurative and should not be interpreted literally.
+  - They are mainly informal and often add colour or exaggeration.
+  - Mood expressions are often fixed and cannot be changed word by word.
+  examples:
+  - english: on cloud nine / in high spirits
+  - english: have a long face / throw a wobbly
+  - english: done in / as fit as a fiddle
+  - english: over the moon / down in the dumps
+  pitfalls:
+  - Do not interpret these expressions literally.
+  - Do not use very informal mood expressions in formal writing without care.
+  - Do not change the wording of fixed expressions too freely.
+  practicePrompts:
+  - id: emotions-and-moods-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe someone’s mood using vocabulary such as on cloud nine, in high spirits, done in, or throw a wobbly.
+  - id: emotions-and-moods-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why fixed expressions for mood should not be translated word for word.
+  related: []

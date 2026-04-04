@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: speaking
+  title: Speaking
+  order: 45
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for reporting speech, describing tone, and adding attitude through reporting verbs and adverbs.
+  points:
+  - Speaking verbs can show loudness, softness, emotion, and intention.
+  - Reporting verbs include whisper, mutter, mumble, murmur, shout, boast, insist, and threaten.
+  - Adverbs such as angrily, calmly, or nervously add detail to the way someone speaks.
+  - Different verbs suggest different speaker attitudes or emotional states.
+  - Reporting clauses are often built with that or with direct speech.
+  - These verbs help describe how something was said, not just what was said.
+  examples:
+  - english: whisper / mutter / mumble / murmur / shout
+  - english: boast / insist / threaten / protest / complain
+  - english: speak angrily / calmly / nervously / softly
+  - english: threaten that / insist that / whisper that
+  pitfalls:
+  - Do not confuse similar reporting verbs such as mutter, mumble, and murmur.
+  - Do not add adverbs randomly; they should match the tone and situation.
+  - Do not ignore the difference between describing what was said and how it was said.
+  practicePrompts:
+  - id: speaking-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a conversation using vocabulary such as whisper, shout, insist, threaten, or angrily.
+  - id: speaking-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two reporting verbs from this unit and give an example of each.
+  related: []

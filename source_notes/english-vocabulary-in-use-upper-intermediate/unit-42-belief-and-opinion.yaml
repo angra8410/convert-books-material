@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: belief-and-opinion
+  title: Belief and opinion
+  order: 42
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for expressing beliefs, opinions, and degrees of certainty. It also highlights common opinion phrases and some important preposition patterns.
+  points:
+  - Belief verbs include think, believe, maintain, reckon, suspect, doubt, and be convinced.
+  - Opinion phrases include in my view, to my mind, if you ask me, and from my point of view.
+  - Different words express different levels of certainty, doubt, or personal judgment.
+  - Point of view can refer to perspective as well as opinion.
+  - Belief vocabulary also includes adjectives such as fanatical, moderate, and firm.
+  - Prepositions are important in this topic, especially in fixed phrases such as to my mind.
+  examples:
+  - english: believe / suspect / doubt / be convinced / maintain
+  - english: in my view / to my mind / if you ask me / from my point of view
+  - english: fanatical / moderate / firm beliefs
+  - english: convinced that / doubt whether / maintain that
+  pitfalls:
+  - Do not say in my mind when you mean to my mind.
+  - Do not confuse suspect with believe because suspect often suggests something negative or uncertain.
+  - Do not treat all opinion phrases as equally formal.
+  practicePrompts:
+  - id: belief-and-opinion-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how you would express a strong opinion and a doubtful opinion, using vocabulary from this unit.
+  - id: belief-and-opinion-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a topic from two different points of view, using at least two opinion phrases from this unit.
+  related: []

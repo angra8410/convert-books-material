@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: like-dislike-and-desire
+  title: Like, dislike and desire
+  order: 44
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for liking, disliking, wanting, and anticipating. It covers differences in strength, formality, and emotional tone.
+  points:
+  - Strong dislike can be expressed with loathe, detest, despise, cannot stand, and cannot bear.
+  - Negative reactions can be described with repel, revolt, appal, and disgust.
+  - Wanting and anticipation vocabulary includes desire, long for, yearn for, look forward to, and dread.
+  - Positive attraction can be expressed with fascinate, appeal to, and captivate.
+  - Some words in this area are formal or literary, especially desire and yearn.
+  - Different expressions take different grammar patterns, including noun phrases and -ing forms.
+  examples:
+  - english: loathe / detest / despise / cannot stand / cannot bear
+  - english: repel / revolt / appal / disgust
+  - english: desire / long for / yearn for / look forward to / dread
+  - english: fascinate / appeal to / captivate
+  pitfalls:
+  - Do not use all dislike words as if they were the same strength.
+  - Do not forget that some expressions, such as look forward to, are followed by -ing or a noun.
+  - Do not use desire casually without noticing its formal or sometimes sexual meaning.
+  practicePrompts:
+  - id: like-dislike-and-desire-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe something you strongly like or dislike using at least two expressions from this unit.
+  - id: like-dislike-and-desire-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between looking forward to something and dreading it, using examples from this unit.
+  related: []

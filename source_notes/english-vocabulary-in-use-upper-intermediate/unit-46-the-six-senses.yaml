@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: the-six-senses
+  title: The six senses
+  order: 46
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary connected with the five senses and the idea of a sixth sense. It also includes useful adjectives and verbs for describing sensory experiences.
+  points:
+  - The five senses are sight, hearing, taste, touch, and smell, and a sixth sense refers to extrasensory perception.
+  - Sense verbs are often followed by adjectives, as in looks dreadful or sounds marvellous.
+  - Taste and smell vocabulary includes sweet, salty, bitter, sour, spicy, fragrant, and pungent.
+  - Touch vocabulary includes verbs such as poke, stroke, pat, grasp, grab, snatch, and press.
+  - Sixth-sense vocabulary includes telepathy, intuition, premonition, and deja vu.
+  - Sensory vocabulary often depends on contrasts between literal and figurative meaning.
+  examples:
+  - english: look dreadful / sound marvellous / smell delicious
+  - english: sweet / salty / bitter / sour / spicy / pungent
+  - english: poke / stroke / pat / grasp / grab / snatch / press
+  - english: telepathy / intuition / premonition / deja vu
+  pitfalls:
+  - Do not confuse tasty with tasteful.
+  - Do not forget that hot can refer to spice as well as temperature.
+  - Do not use adverbs after sense verbs when an adjective is needed.
+  practicePrompts:
+  - id: the-six-senses-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe an experience using vocabulary from at least three of the senses in this unit.
+  - id: the-six-senses-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two taste or smell words from this unit and give an example of each.
+  related: []

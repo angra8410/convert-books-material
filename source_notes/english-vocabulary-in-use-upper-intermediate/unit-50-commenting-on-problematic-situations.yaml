@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: commenting-on-problematic-situations
+  title: Commenting on problematic situations
+  order: 50
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary and idioms for describing problems, confusion, difficult decisions, and possible solutions or turning points.
+  points:
+  - Problem words include chaos, disaster, dilemma, challenge, fix, tight corner, and muddle.
+  - Negative effects can be described with affected, irritating, annoying, disrupted, collapsed, and deprived.
+  - Problem-solving idioms include take the bull by the horns, get your act together, and get to the bottom of things.
+  - Calming or worsening a situation can be described with pour oil on troubled waters and stir things up.
+  - Situation-change idioms include the tide has turned, light at the end of the tunnel, dead end, and turning point.
+  - Some idioms describe avoiding action, such as take a back seat or sweep something under the carpet.
+  examples:
+  - english: chaos / disaster / dilemma / challenge / fix / muddle
+  - english: disrupted / collapse / deprivation / heartbreak / lack
+  - english: take the bull by the horns / get your act together / get to the bottom of things
+  - english: stir things up / pour oil on troubled waters / light at the end of the tunnel
+  pitfalls:
+  - Do not confuse challenge with a purely negative problem word; it often has a more positive slant.
+  - Do not use idioms such as sweep under the carpet without understanding their figurative meaning.
+  - Do not mix up words for confusion, damage, and decision-making; they describe different kinds of difficulty.
+  practicePrompts:
+  - id: commenting-on-problematic-situations-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a difficult situation using vocabulary such as dilemma, chaos, challenge, or dead end.
+  - id: commenting-on-problematic-situations-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how someone could respond to a problem using at least two idioms from this unit.
+  related: []

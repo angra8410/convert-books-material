@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: pleasant-and-unpleasant-feelings
+  title: Pleasant and unpleasant feelings
+  order: 43
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for pleasant and unpleasant feelings and shows how strength words such as absolutely and quite affect meaning.
+  points:
+  - Pleasant feelings include content, grateful, delighted, thrilled, and relieved.
+  - Unpleasant feelings include miserable, anxious, furious, fed up, and sick and tired.
+  - Some adjectives describe strong emotions and naturally combine with absolutely.
+  - Weaker feeling adjectives often combine with quite in the sense of rather.
+  - Feeling vocabulary can describe both short reactions and longer emotional states.
+  - Register and intensity matter when choosing between near-synonyms.
+  examples:
+  - english: content / grateful / delighted / thrilled / relieved
+  - english: miserable / anxious / furious / fed up / sick and tired
+  - english: absolutely delighted / absolutely furious / quite anxious
+  - english: contented person / grateful to someone / furious with someone
+  pitfalls:
+  - Do not use absolutely with every feeling adjective.
+  - Do not confuse content with contented in patterns where only one form is natural.
+  - Do not ignore prepositions such as grateful to and furious with.
+  practicePrompts:
+  - id: pleasant-and-unpleasant-feelings-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a situation using vocabulary such as delighted, grateful, anxious, or furious.
+  - id: pleasant-and-unpleasant-feelings-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between a mild feeling and a strong feeling, using examples from this unit.
+  related: []
