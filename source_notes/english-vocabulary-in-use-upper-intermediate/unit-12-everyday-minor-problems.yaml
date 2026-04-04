@@ -1,0 +1,41 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: everyday-minor-problems
+  title: Everyday minor problems
+  order: 12
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers common everyday minor problems in the home, minor injuries,
+    and small mishaps involving personal belongings.
+  points:
+  - Minor problems include things breaking, leaking, getting blocked, or stopping working.
+  - The unit also covers minor injuries such as bruises, grazes, and twisted ankles.
+  - Some problems affect possessions, such as stains, dents, or mislaid items.
+  - Several words in this unit can be used both as nouns and as verbs.
+  examples:
+  - english: leaking pipe, cracked pot, chipped cup
+  - english: power cut, washing machine broke down, computer keeps crashing
+  - english: bruise, graze, twisted ankle
+  - english: mislaid, stain, dent, locked myself out
+  pitfalls:
+  - Do not confuse problems in the home with minor injuries; the vocabulary groups are different.
+  - Do not forget that words like crack, bruise, dent, and stain can be nouns or verbs.
+  - Do not confuse a flat battery with batteries that have run out or are dead.
+  practicePrompts:
+  - id: everyday-minor-problems-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain three types of minor problems from this unit, for example in the home, with injuries, or with belongings.
+  - id: everyday-minor-problems-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using vocabulary from this unit for a household problem, an injury, or a damaged object.
+  related: []

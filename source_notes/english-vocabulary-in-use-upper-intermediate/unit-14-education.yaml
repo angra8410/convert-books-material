@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: education
+  title: Education
+  order: 14
+  cefr:
+  - B2
+  tags: []
+  summary: This unit outlines the stages of education in the UK system and introduces
+    vocabulary for schools, exams, grades, and educational technology.
+  points:
+  - The UK system includes stages such as creche, nursery school, primary school, secondary school, and sixth-form college.
+  - Secondary education may take place in comprehensive schools, grammar schools, or private fee-paying schools.
+  - Exam language includes take, do, sit, or resit an exam, as well as marks, grades, pass, and fail.
+  - Education technology includes LMS and VLE systems that support distance or blended learning.
+  - Common questions include the school-leaving age and the age at which compulsory education begins.
+  examples:
+  - english: creche, nursery school, primary school, secondary school
+  - english: comprehensive school, grammar school, public school
+  - english: take / do / sit / resit an exam
+  - english: marks, grades, high grade, minimum grade
+  - english: LMS, VLE, distance learning, blended learning
+  pitfalls:
+  - Do not confuse UK public schools with state schools; public schools are private and fee-paying.
+  - Do not mix up comprehensive schools and grammar schools.
+  - Do not confuse passing an exam with simply taking or sitting it.
+  practicePrompts:
+  - id: education-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain three stages or institutions in the UK education system from this unit.
+  - id: education-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using vocabulary from this unit for schools, exams, grades, or online learning.
+  related: []

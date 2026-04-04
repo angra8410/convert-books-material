@@ -1,0 +1,41 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: higher-education
+  title: Higher education
+  order: 15
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains aspects of higher education in the UK, including undergraduate
+    and postgraduate study, university teaching formats, and student services.
+  points:
+  - Undergraduate studies lead to a bachelor's degree and involve modules, credits, and often a dissertation.
+  - Postgraduate studies include a master's degree and a PhD, and require specialisation and research.
+  - University teaching formats include lectures, seminars, and tutorials.
+  - Student services include admissions, funding, tuition fees, student loans, scholarships, and the student union.
+  examples:
+  - english: undergraduate studies, bachelor's degree, modules, credits
+  - english: postgraduate studies, master's degree, PhD, thesis
+  - english: lecture theatre, seminar, tutorial, halls of residence
+  - english: admissions, tuition fees, student loan, scholarship
+  pitfalls:
+  - Do not confuse undergraduate and postgraduate study stages.
+  - Do not mix up a dissertation with a thesis.
+  - Do not confuse tuition fees, student loans, and scholarships.
+  practicePrompts:
+  - id: higher-education-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain three vocabulary groups from this unit for study stages, teaching formats, or student services.
+  - id: higher-education-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using vocabulary from this unit for university study, classes, or funding.
+  related: []

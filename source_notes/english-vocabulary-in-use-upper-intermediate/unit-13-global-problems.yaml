@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: global-problems
+  title: Global problems
+  order: 13
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for global disasters and tragedies, including
+    natural events, human-caused incidents, and words for the people affected by them.
+  points:
+  - The unit covers disasters such as earthquakes, floods, droughts, volcanoes, famines, epidemics, hurricanes, and war.
+  - Natural disasters are events not caused by human beings.
+  - It also introduces verbs commonly used with disasters, such as erupt, spread, starve, shake, break out, and sweep through.
+  - People affected by disasters may be described as casualties, victims, survivors, or refugees.
+  examples:
+  - english: earthquake, flood, drought, famine
+  - english: epidemic, explosion, hurricane, civil war
+  - english: casualties, victims, survivors, refugees
+  - english: erupted, spread, starving, broke out
+  pitfalls:
+  - Confusing 'casualty' with 'victim' - casualties specifically refer to the dead
+    and injured.
+  - Assuming all major accidents are natural disasters - the text distinguishes between
+    the two.
+  - Not recognizing that 'refugees' need shelter elsewhere due to the disaster.
+  practicePrompts:
+  - id: global-problems-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain three vocabulary groups from this unit for disasters, disaster verbs, or people affected by disasters.
+  - id: global-problems-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using vocabulary from this unit for a disaster, its effects, or the people involved.
+  related: []

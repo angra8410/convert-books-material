@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: at-home
+  title: At home
+  order: 11
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for types of homes, places in the home,
+    and common everyday household objects.
+  points:
+  - A bungalow, semi-detached house, studio flat, cottage, and villa are all different housing types.
+  - Places in the home include spaces such as the attic or loft, cellar, basement, porch, and landing.
+  - Some rooms have specific functions, such as a utility room or a studio.
+  - Outdoor home areas include a terrace or patio and a drive.
+  - Everyday household vocabulary also covers small objects such as a charger, hanger, corkscrew, or peeler.
+  examples:
+  - english: bungalow, semi-detached house, studio flat
+  - english: attic / loft, cellar, basement
+  - english: porch, landing, terrace / patio, drive
+  - english: remote control, phone charger, corkscrew
+  pitfalls:
+  - Do not confuse a cellar with a basement; a basement has windows while a cellar usually does not.
+  - Do not assume a loft is only storage space; it can also be converted into living space.
+  - Do not mix up places in the home with small household objects when learning the vocabulary.
+  practicePrompts:
+  - id: at-home-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain three vocabulary groups from this unit for types of homes, places in the home, or household objects.
+  - id: at-home-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using vocabulary from this unit for rooms, outdoor areas, or household objects.
+  related: []

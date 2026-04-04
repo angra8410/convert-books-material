@@ -1,0 +1,25 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: art-and-literature
+  title: Art and literature
+  order: 19
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: art-and-literature-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write a short response using the key language from 'Art and literature'.
+  related: []

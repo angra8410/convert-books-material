@@ -1,0 +1,25 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: sport
+  title: Sport
+  order: 18
+  cefr:
+  - B2
+  tags: []
+  summary: ''
+  points: []
+  examples: []
+  pitfalls: []
+  practicePrompts:
+  - id: sport-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write a short response using the key language from 'Sport'.
+  related: []
