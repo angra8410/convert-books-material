@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: environmental-problems
+  title: Environmental problems
+  order: 24
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for major environmental problems, their causes, and possible responses. It also includes useful compound nouns and policy language.
+  points:
+  - Key problems include global warming, smog, acid rain, water pollution, hazardous waste, and destruction of rainforests.
+  - The greenhouse effect is linked to carbon dioxide and rising global temperatures.
+  - Plant and animal life may become endangered or extinct because of environmental damage.
+  - The prefix over- appears in words such as overfishing and overpopulated.
+  - Solutions and responses include nature reserves, recycling, organic food, and reducing fossil fuel use.
+  - Environmental language often includes carbon footprint, climate change, ozone layer, and polar ice caps.
+  examples:
+  - english: global warming / climate change / carbon dioxide / greenhouse effect
+  - english: hazardous waste / water pollution / smog / acid rain
+  - english: endangered species / extinct / destruction of rainforests
+  - english: overfishing / overpopulated / carbon footprint / fossil fuels
+  - english: nature reserve / organic food / recycle / environmentally friendly
+  pitfalls:
+  - Do not confuse extinct with endangered.
+  - Do not treat global warming and climate change as identical in every context.
+  - Do not learn carbon footprint or fossil fuels without their environmental context.
+  practicePrompts:
+  - id: environmental-problems-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe an environmental problem using vocabulary such as smog, hazardous waste, endangered species, or carbon footprint.
+  - id: environmental-problems-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain two ways people or governments could respond to environmental problems, using collocations from this unit.
+  related: []

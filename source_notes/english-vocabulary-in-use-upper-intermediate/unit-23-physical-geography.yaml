@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: physical-geography
+  title: Physical geography
+  order: 23
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for rivers, mountains, coasts, and other geographical features. It also explains important patterns for using the definite article with place names.
+  points:
+  - Physical geography vocabulary includes coast, valley, glacier, peak, source, ridge, and delta.
+  - Sea and river terms include current, estuary, shore, strait, cape, and peninsula.
+  - Individual mountains usually do not take the, but mountain chains do.
+  - Rivers, oceans, seas, gulfs, and many groups of islands normally take the.
+  - Country names usually do not take the, except in names like the USA or when followed by a limiting phrase.
+  - Limiting phrases can change the article pattern, as in the Japan of today.
+  examples:
+  - english: current / estuary / source / shore / strait / peninsula
+  - english: peak / ridge / valley / glacier / mountain chain
+  - english: the Himalayas / the Gulf of Mexico / the USA
+  - english: the Japan of today / the Brazil of the future
+  pitfalls:
+  - Do not add the automatically before every country or mountain.
+  - Do not forget that rivers and seas usually take the.
+  - Do not ignore limiting phrases that change the normal article pattern.
+  practicePrompts:
+  - id: physical-geography-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a landscape using vocabulary such as valley, ridge, glacier, coast, or estuary.
+  - id: physical-geography-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain when the is used with geographical names, using examples from this unit.
+  related: []

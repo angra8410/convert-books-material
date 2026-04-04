@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: the-natural-world
+  title: The natural world
+  order: 26
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for animals, plants, and natural processes. It also highlights useful verb patterns such as lay eggs, blossom, breed, pick, and pick up.
+  points:
+  - Animal and plant vocabulary includes mane, beak, hoof, whiskers, petal, stem, root, and thorn.
+  - Natural processes include blossom, grow, breed, lay eggs, and flower.
+  - Some words describe movement or physical features, such as paws, claws, bark, and branch.
+  - The unit distinguishes pick from pick up.
+  - Pick is used for gathering flowers or fruit, while pick up is used for lifting something that has dropped.
+  - Nature vocabulary often groups into animal words and plant words.
+  examples:
+  - english: whiskers / paws / claws / hoof / mane
+  - english: petal / stem / root / bud / thorn
+  - english: blossom / grow / lay eggs / breed
+  - english: pick flowers / pick up a purse / drop from a tree
+  pitfalls:
+  - Do not use pick up when you mean pick flowers or fruit from a plant.
+  - Do not confuse plant parts with animal parts.
+  - Do not ignore the verb pattern when learning nature vocabulary.
+  practicePrompts:
+  - id: the-natural-world-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe part of the natural world using vocabulary such as whiskers, petal, root, thorn, or branch.
+  - id: the-natural-world-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between pick and pick up, using examples from this unit.
+  related: []

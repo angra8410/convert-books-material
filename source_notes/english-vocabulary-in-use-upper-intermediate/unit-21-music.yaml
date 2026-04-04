@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: music
+  title: Music
+  order: 21
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for music technology, musical tastes, band roles, and common musical collocations. It also highlights a few common usage mistakes.
+  points:
+  - Music files can be downloaded as albums or individual tracks and organised into playlists.
+  - Files can be synced between devices or streamed from one device to another.
+  - Band vocabulary includes lead singer, lead guitar, bass guitarist, keyboard player, and drummer.
+  - Music types include classical, folk, jazz, R&B, hip-hop, rap, film soundtracks, and canned music.
+  - Useful collocations include read music, play by ear, have a good ear, and pick out a tune.
+  - Music is uncountable, and the correct expression is classical music, not classic music.
+  examples:
+  - english: album / track / playlist / sync / stream
+  - english: lead singer / lead guitar / bass guitarist / drummer
+  - english: classical music / folk music / film soundtrack / canned music
+  - english: read music / play by ear / have a good ear / pick out a tune
+  pitfalls:
+  - Do not use music as a countable noun.
+  - Do not say classic music when you mean classical music.
+  - Do not forget the difference between an album and a track.
+  practicePrompts:
+  - id: music-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe your musical tastes using vocabulary such as classical, folk, hip-hop, soundtrack, or canned music.
+  - id: music-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how someone could organise and listen to music using words such as album, track, playlist, sync, and stream.
+  related: []

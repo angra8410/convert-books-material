@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: health-and-lifestyle
+  title: Health and lifestyle
+  order: 30
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for diet, healthy and unhealthy food, fitness, stress, and long-term health effects. It also includes useful verb-noun collocations connected with health.
+  points:
+  - Some foods are beneficial, while others may cause long-term health problems if consumed in large quantities.
+  - Useful food collocations include wholemeal bread, fizzy drinks, oily fish, processed food, and sugary foods.
+  - Some foods may boost the immune system, lower cholesterol, reduce the risk of heart disease, or slow the ageing process.
+  - Health vocabulary includes mental health, fitness, exercise, stress, and depression.
+  - Lifestyle language often links diet, exercise, and stressful work to physical and mental wellbeing.
+  - Food and fruit can be countable or uncountable depending on the meaning, while fish is often treated differently in food contexts.
+  examples:
+  - english: wholemeal bread / fizzy drinks / oily fish / processed food
+  - english: boost the immune system / lower cholesterol / reduce the risk of heart disease
+  - english: slow the ageing process / improve short-term memory
+  - english: mental health / stressful job / regular exercise / fitness
+  pitfalls:
+  - Do not confuse countable and uncountable uses of food and fruit.
+  - Do not learn the health verbs without the nouns they typically collocate with.
+  - Do not treat healthy lifestyle vocabulary as only about food; it also includes exercise and stress.
+  practicePrompts:
+  - id: health-and-lifestyle-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a healthy lifestyle using vocabulary such as wholemeal bread, oily fish, regular exercise, stress, or mental health.
+  - id: health-and-lifestyle-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how food or daily habits can affect health, using at least two collocations from this unit.
+  related: []

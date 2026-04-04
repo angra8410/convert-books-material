@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: towns
+  title: Towns
+  order: 25
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for describing towns and cities, their facilities, their character, and their problems. It combines descriptive language with common urban collocations.
+  points:
+  - Town and city descriptions often focus on the centre, residential districts, facilities, and local attractions.
+  - Useful facilities vocabulary includes sports centre, art gallery, museum, science park, and market.
+  - Urban problems include traffic, overcrowding, pollution, vandalism, and slums.
+  - Adjectives such as picturesque, bustling, historic, run-down, and fashionable help describe a place.
+  - A place may be well worth visiting or within walking distance of the centre.
+  - Location language includes overlook the harbour, on the site of, and on the outskirts.
+  examples:
+  - english: city centre / residential district / science park / market / museum
+  - english: picturesque / bustling / run-down / fashionable / historic
+  - english: within walking distance / well worth visiting / overlook the harbour
+  - english: traffic / overcrowding / pollution / vandalism / slums
+  pitfalls:
+  - Do not use city and town as exact synonyms in every context.
+  - Do not forget that many town descriptions rely on collocations, not just single adjectives.
+  - Do not confuse a facility with a problem, for example gallery with vandalism or market with traffic.
+  practicePrompts:
+  - id: towns-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a town or city using vocabulary such as city centre, residential district, picturesque, or bustling.
+  - id: towns-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the main attractions and problems of a town, using at least two collocations from this unit.
+  related: []

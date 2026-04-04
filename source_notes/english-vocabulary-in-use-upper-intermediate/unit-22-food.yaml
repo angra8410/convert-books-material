@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: food
+  title: Food
+  order: 22
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for taste, food quality, eating out, and hosting meals at home. It combines descriptive adjectives with common restaurant and dinner-table expressions.
+  points:
+  - Taste adjectives include hot, spicy, salty, sugary, sour, bitter, tasty, bland, and moreish.
+  - Food quality can be described as overcooked, undercooked, ripe, unripe, gone off, light, or stodgy.
+  - Health-related food terms include organic food, junk food, processed food, and a balanced diet.
+  - Restaurant vocabulary includes make a reservation, cancel a booking, starter, main course, dessert, side dish, and set menu.
+  - Hosting language includes seconds, help yourself, pudding, re-fill your glass, and Say when.
+  - Some nouns and expressions are fixed, such as savoury snacks and a-la-carte dishes.
+  examples:
+  - english: spicy / mild / bland / tasteless / moreish
+  - english: overcooked / undercooked / ripe / gone off / stodgy
+  - english: organic food / junk food / processed food / balanced diet
+  - english: make a reservation / main course / side dish / set menu
+  - english: seconds / help yourself / pudding / re-fill your glass
+  pitfalls:
+  - Do not confuse bitter with sour.
+  - Do not use bland as a positive description.
+  - Do not forget that moreish means you want to eat more of something.
+  practicePrompts:
+  - id: food-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a meal using vocabulary such as spicy, bland, ripe, overcooked, or moreish.
+  - id: food-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain what happens when you eat out, using words such as reservation, starter, main course, side dish, and dessert.
+  related: []

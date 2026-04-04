@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: medicine-and-technology
+  title: Medicine and technology
+  order: 29
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for the history of medical technology and possible future developments. It covers inventions, devices, surgery, and remote diagnosis.
+  points:
+  - Early medical technology included spectacles, crutches, wheelchairs, and X-rays.
+  - Modern devices include hearing aids, pacemakers, contact lenses, and prosthetic limbs.
+  - Medical technology can identify, diagnose, treat, and monitor disease.
+  - Future developments include remote diagnosis, databases, transplants, and robotic limbs.
+  - Keyhole surgery reduces the need to cut open the body during operations.
+  - Medical technology vocabulary often combines technology terms with treatment verbs.
+  examples:
+  - english: spectacles / crutches / wheelchair / X-rays
+  - english: hearing aid / pacemaker / contact lenses / artificial hip
+  - english: identify disease / diagnose a patient / treat an illness
+  - english: keyhole surgery / database / transplant / robotic limb
+  pitfalls:
+  - Do not treat diagnose, identify, and treat as synonyms.
+  - Do not forget that sophisticated describes complexity, not just cost.
+  - Do not learn a device word without knowing what medical problem it helps with.
+  practicePrompts:
+  - id: medicine-and-technology-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe two examples of medical technology and explain what they help doctors or patients do.
+  - id: medicine-and-technology-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how future medicine could change through technology, using vocabulary such as keyhole surgery, diagnose, database, or transplant.
+  related: []

@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: health-and-medicine
+  title: Health and medicine
+  order: 28
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for symptoms, illnesses, treatment, and recovery. It includes both everyday expressions and more formal medical language.
+  points:
+  - Common symptoms include rash, bruise, lump, spots, black eye, indigestion, and sunburn.
+  - Sensation verbs include ache, itch, shiver, tremble, and hurt.
+  - Informal illness expressions include pick up a bug and get over a cold or infection.
+  - Treatment vocabulary includes bandage, injection, plaster, teaspoonful, tablet, and operation.
+  - Serious health language includes suffer a stroke, contract AIDS, and die of a heart attack.
+  - Health vocabulary often combines verbs, nouns, and prepositions in fixed patterns.
+  examples:
+  - english: rash / bruise / indigestion / black eye / sore throat
+  - english: ache / itch / shiver / tremble / feel dizzy
+  - english: pick up a bug / get over an infection
+  - english: bandage / injection / plaster / tablet / operation
+  - english: suffer a stroke / die of a heart attack
+  pitfalls:
+  - Do not say die with a heart attack when you mean die of a heart attack.
+  - Do not forget the preposition in operate on someone.
+  - Do not mix up everyday symptom language with formal medical diagnosis language.
+  practicePrompts:
+  - id: health-and-medicine-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a health problem using vocabulary such as rash, bruise, indigestion, shiver, or injection.
+  - id: health-and-medicine-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how someone could recover from an illness, using at least two expressions from this unit.
+  related: []

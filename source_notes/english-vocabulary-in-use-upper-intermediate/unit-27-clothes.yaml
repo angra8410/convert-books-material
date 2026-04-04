@@ -1,0 +1,43 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: clothes
+  title: Clothes
+  order: 27
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for clothes, alterations, fit, and personal style. It also reviews some important collocations and plural clothing nouns.
+  points:
+  - Clothing vocabulary includes items such as belt, sole, laces, hoodie, slippers, helmet, and swimming costume.
+  - Some clothing words are usually plural, such as trousers, shorts, tights, jeans, and underpants.
+  - Alteration verbs include let out, let down, take in, and take up.
+  - Adjectives for clothes include baggy, close-fitting, checked, woollen, suede, and denim.
+  - Style language includes dressed casually, elegant, designer sunglasses, and inside out.
+  - Fit, match, and suit have different meanings when describing clothes.
+  examples:
+  - english: belt / sole / laces / hoodie / slippers / helmet
+  - english: jeans / shorts / tights / underpants / a pair of trousers
+  - english: let out / let down / take in / take up
+  - english: baggy / close-fitting / checked / denim / woollen
+  - english: fit / match / suit / dressed casually / inside out
+  pitfalls:
+  - Do not forget that many clothes for the lower body are plural.
+  - Do not confuse fit, match, and suit.
+  - Do not use alteration verbs as if they all meant the same change.
+  practicePrompts:
+  - id: clothes-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe what someone is wearing, using vocabulary such as checked, close-fitting, denim, hoodie, or belt.
+  - id: clothes-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how a piece of clothing could be altered, using verbs such as let out, let down, take in, or take up.
+  related: []
