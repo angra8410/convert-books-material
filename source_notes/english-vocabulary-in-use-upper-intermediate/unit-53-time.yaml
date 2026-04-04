@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: time
+  title: Time
+  order: 53
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for periods of time, stages, timing expressions, and repeated events. It also clarifies some common mistakes such as on time versus in time.
+  points:
+  - Time vocabulary includes age, era, spell, phase, stage, and period.
+  - Some expressions refer to historical periods, such as the Ice Age and the Middle Ages.
+  - Time phrases include from time to time, at times, time and time again, on time, and in time.
+  - Different words describe different lengths and types of time span.
+  - Time expressions often depend on fixed phrase patterns rather than literal meaning alone.
+  - Repetition and timing are commonly expressed through idiomatic phrases.
+  examples:
+  - english: Ice Age / Middle Ages / a new era / a difficult phase / a spell in hospital
+  - english: from time to time / at times / time and time again
+  - english: on time / in time
+  - english: for the time being / ahead of time / over time
+  pitfalls:
+  - Do not confuse on time with in time.
+  - Do not use spell, phase, and stage as if they always meant the same kind of period.
+  - Do not translate repeated time idioms word for word from another language.
+  practicePrompts:
+  - id: time-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a period in life or history using vocabulary such as era, phase, spell, or stage.
+  - id: time-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between on time and in time, using examples from this unit.
+  related: []

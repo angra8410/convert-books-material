@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: obligation-need-possibility-and-probability
+  title: Obligation, need, possibility and probability
+  order: 55
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for obligation, necessity, possibility, and probability. It focuses on differences in strength, formality, and common collocations.
+  points:
+  - Obligation vocabulary includes liable, obliged, duty, and responsibility.
+  - Need and necessity vocabulary includes need, necessity, and absolute necessity.
+  - Probability vocabulary includes probable, likely, unlikely, inevitable, and doubtful.
+  - Chance and possibility overlap, but they differ in tone and formality.
+  - These words are often used in formal explanations, rules, and predictions.
+  - Grammar and preposition patterns are important in this topic.
+  examples:
+  - english: liable for / obliged to / under an obligation
+  - english: a need for / an absolute necessity
+  - english: probable / likely / inevitable / doubtful
+  - english: possibility / chance / probability / certainty
+  pitfalls:
+  - Do not ignore the preposition in phrases such as a need for.
+  - Do not treat chance, possibility, and probability as exact synonyms.
+  - Do not miss the formal tone of words such as obliged or liable.
+  practicePrompts:
+  - id: obligation-need-possibility-and-probability-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a situation involving obligation or necessity using vocabulary from this unit.
+  - id: obligation-need-possibility-and-probability-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between possibility, probability, and certainty, using examples from this unit.
+  related: []

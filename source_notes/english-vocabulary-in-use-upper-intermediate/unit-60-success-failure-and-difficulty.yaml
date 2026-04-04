@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: success-failure-and-difficulty
+  title: Success, failure and difficulty
+  order: 60
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for success, failure, and dealing with difficult situations. It covers verbs, nouns, and common collocations for achievement and setback.
+  points:
+  - Success verbs include succeed, manage, achieve, accomplish, attain, realise, and fulfil.
+  - Achievement vocabulary often combines with words such as goal, ambition, target, and agreement.
+  - Failure vocabulary includes go wrong, backfire, falter, fold, go under, and come to nothing.
+  - Difficulty expressions include have difficulty, have trouble, have bother, and find something hard.
+  - Cope means deal successfully with a difficult situation.
+  - Word formation in this area includes success, successful, successfully, achievement, and fulfilment.
+  examples:
+  - english: succeed in / manage to / achieve a goal / fulfil an ambition
+  - english: go wrong / backfire / falter / fold / go under
+  - english: have difficulty / have trouble / have bother / cope with
+  - english: success / successful / successfully / achievement / fulfilment
+  pitfalls:
+  - Do not use difficulties when the singular difficulty is needed in fixed expressions.
+  - Do not use successes when the uncountable success meaning is intended.
+  - Do not treat achieve and accomplish as identical in every collocation.
+  practicePrompts:
+  - id: success-failure-and-difficulty-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a successful or unsuccessful plan using vocabulary such as achieve, falter, go wrong, or cope.
+  - id: success-failure-and-difficulty-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between success and difficulty expressions from this unit, using examples.
+  related: []

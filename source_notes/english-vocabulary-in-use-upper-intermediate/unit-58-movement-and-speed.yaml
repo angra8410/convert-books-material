@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: movement-and-speed
+  title: Movement and speed
+  order: 58
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for movement, direction, and speed. It covers verbs for different kinds of motion and nouns that describe speed or rate.
+  points:
+  - Movement verbs vary according to direction and style, such as drift, swerve, creep, cruise, rush, and shoot.
+  - Different kinds of movement are associated with different objects, vehicles, or situations.
+  - Speed vocabulary includes speed, rate, pace, and velocity.
+  - These nouns often combine with the preposition at.
+  - Movement vocabulary often relies on vivid verbs rather than general words like move.
+  - Small differences in movement verbs can signal different speed or direction.
+  examples:
+  - english: drift / swerve / creep / cruise / rush / shoot
+  - english: flow / sail / drive / travel / glide
+  - english: at a speed / at a rate / at a pace / velocity
+  - english: swerve to avoid / creep along / drift across the sky
+  pitfalls:
+  - Do not use the wrong preposition with speed, rate, or pace.
+  - Do not treat all movement verbs as simple synonyms of move.
+  - Do not ignore the direction or speed implied by a verb such as creep or rush.
+  practicePrompts:
+  - id: movement-and-speed-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe movement in a scene using vocabulary such as drift, swerve, creep, rush, or flow.
+  - id: movement-and-speed-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between speed, rate, pace, and velocity, using examples from this unit.
+  related: []

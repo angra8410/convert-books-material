@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: number-quantity-degree-and-intensity
+  title: Number, quantity, degree and intensity
+  order: 51
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for number, quantity, degree, and intensity. It also highlights important differences between countable and uncountable patterns and between formal and informal quantity expressions.
+  points:
+  - Number is used with countable nouns, while amount is used with uncountable nouns.
+  - Quantity adjectives include minute, considerable, substantial, excessive, vast, and enormous.
+  - Informal quantity expressions include dozens of, scores of, heaps of, loads of, and tons of.
+  - Intensifiers such as utterly, totally, and wholly combine with particular nouns and adjectives.
+  - Verb agreement with expressions like loads of or tons of depends on the following noun.
+  - Degree and intensity are often expressed through fixed collocations rather than freely combined words.
+  examples:
+  - english: number of students / amount of money
+  - english: minute amount / considerable number / substantial quantity / excessive amount
+  - english: dozens of nails / scores of people / heaps of time / tons of food
+  - english: utter chaos / utterly confused / total disbelief / wholly dependent
+  pitfalls:
+  - Do not use number with uncountable nouns or amount with countable nouns.
+  - Do not ignore the noun after loads of or tons of when choosing verb agreement.
+  - Do not combine utterly, totally, and wholly with just any word; they prefer specific collocations.
+  practicePrompts:
+  - id: number-quantity-degree-and-intensity-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a situation involving a large quantity of something, using at least two expressions from this unit.
+  - id: number-quantity-degree-and-intensity-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between number and amount, using examples from this unit.
+  related: []

@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: numbers-and-shapes
+  title: Numbers and shapes
+  order: 52
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for reading numbers, describing shapes, and talking about basic arithmetic. It includes spoken patterns that are easy to misuse without practice.
+  points:
+  - Numbers are read differently in contexts such as percentages, measurements, telephone numbers, and long figures.
+  - Long numbers are organised with commas for thousands and spoken in larger units.
+  - Shape vocabulary includes two-dimensional and three-dimensional forms together with their related adjectives.
+  - Arithmetic language covers plus, minus, multiplied by, and divided by.
+  - Spoken number patterns often depend on conventional phrasing, especially for telephone numbers.
+  - Shape words are often paired with adjectives such as rectangular, spherical, and triangular.
+  examples:
+  - english: twenty-eight per cent / ten metres by twelve metres
+  - english: one million, six hundred and twenty-three thousand
+  - english: oh one double two three
+  - english: rectangle / rectangular / sphere / spherical / triangle / triangular
+  pitfalls:
+  - Do not confuse decimal points and commas in number reading.
+  - Do not read telephone numbers like ordinary long numbers.
+  - Do not mix a shape noun with the wrong adjective form.
+  practicePrompts:
+  - id: numbers-and-shapes-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how numbers are read in two different contexts from this unit, such as percentages, measurements, or telephone numbers.
+  - id: numbers-and-shapes-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe several shapes using both the noun and adjective forms from this unit.
+  related: []

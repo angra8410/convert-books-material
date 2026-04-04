@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: possession-and-giving
+  title: Possession and giving
+  order: 57
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for ownership, possessions, property, and giving things to other people or institutions.
+  points:
+  - Possessions and belongings are related but not identical; belongings usually refers to smaller portable items.
+  - Property, estate, owner, proprietor, and landlord describe different kinds of ownership.
+  - Giving vocabulary includes donate, give away, provide, supply, and contribute.
+  - Some words in this topic are more formal, such as proprietor and donate.
+  - Ownership words often depend on the kind of thing owned, such as land, money, or movable objects.
+  - This topic combines everyday and legal or institutional vocabulary.
+  examples:
+  - english: possessions / belongings / property / estate
+  - english: owner / proprietor / landlord / landlady
+  - english: donate / give away / provide / supply / contribute
+  - english: leave an estate / own property / give something away
+  pitfalls:
+  - Do not use possessions and belongings as exact synonyms in every context.
+  - Do not forget the more formal tone of proprietor and donate.
+  - Do not confuse property as a general concept with a single building or site.
+  practicePrompts:
+  - id: possession-and-giving-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe something that belongs to someone using vocabulary such as possessions, belongings, property, or estate.
+  - id: possession-and-giving-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between donating, giving away, and providing, using examples from this unit.
+  related: []

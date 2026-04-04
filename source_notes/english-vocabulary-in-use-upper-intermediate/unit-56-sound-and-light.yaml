@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: sound-and-light
+  title: Sound and light
+  order: 56
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for sounds, noise, darkness, brightness, and the emotional associations of light and sound words.
+  points:
+  - Sound and noise can both be countable or uncountable, but racket is strongly negative.
+  - Specific sound words include bang, chime, rustle, roar, whistle, and crack.
+  - Darkness and brightness vocabulary includes gloomy, dim, sombre, beam, sparkle, and glow.
+  - Some sound and light words can also describe mood or expression.
+  - These words often work in vivid descriptive writing as well as everyday speech.
+  - Many sound and light words function as both nouns and verbs.
+  examples:
+  - english: sound / noise / racket / strange sounds / roar / rustle
+  - english: gloomy / dim / sombre / beam of light / sparkle / glow
+  - english: face glowing with pleasure / sombre expression
+  - english: chime / bang / whistle / roar
+  pitfalls:
+  - Do not treat sound, noise, and racket as interchangeable.
+  - Do not assume darkness words are always literal; they may describe mood.
+  - Do not forget that some sound words can be used as verbs as well as nouns.
+  practicePrompts:
+  - id: sound-and-light-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a place using vocabulary such as racket, roar, dim, sparkle, or beam of light.
+  - id: sound-and-light-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between sound, noise, and racket, using examples from this unit.
+  related: []

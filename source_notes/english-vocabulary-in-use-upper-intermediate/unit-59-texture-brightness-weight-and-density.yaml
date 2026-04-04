@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: texture-brightness-weight-and-density
+  title: Texture, brightness, weight and density
+  order: 59
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for texture, brightness, weight, and density. It focuses on how objects feel, look, and behave physically.
+  points:
+  - Texture vocabulary includes smooth, rough, silky, polished, coarse, and sticky.
+  - Brightness vocabulary includes bright, dull, shiny, glossy, sparkling, and dim.
+  - Weight vocabulary includes light, heavy, and comparison patterns such as as light as a feather.
+  - Density vocabulary contrasts dense and sparse.
+  - These words help describe physical qualities with more precision than general adjectives.
+  - Texture and brightness words often overlap with figurative description as well.
+  examples:
+  - english: smooth / rough / silky / polished / coarse / sticky
+  - english: bright / dull / shiny / glossy / sparkling / dim
+  - english: as light as a feather / as heavy as lead
+  - english: dense / sparse / thick / thinly scattered
+  pitfalls:
+  - Do not confuse smooth with silky or bright with shiny.
+  - Do not forget that dense and sparse describe opposite distributions.
+  - Do not choose texture words without considering what kind of surface is being described.
+  practicePrompts:
+  - id: texture-brightness-weight-and-density-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe the physical qualities of an object using vocabulary such as smooth, glossy, dense, bright, or heavy.
+  - id: texture-brightness-weight-and-density-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two texture or brightness words from this unit and give an example of each.
+  related: []

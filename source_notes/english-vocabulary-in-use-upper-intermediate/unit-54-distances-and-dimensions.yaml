@@ -1,0 +1,42 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: distances-and-dimensions
+  title: Distances and dimensions
+  order: 54
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for width, height, depth, length, and related spatial qualities. It also distinguishes between near-synonyms such as wide and broad or tall and high.
+  points:
+  - Wide is usually preferred for physical spaces and objects, while broad often applies to more abstract or general areas.
+  - Tall is typically used for people and narrow high objects, while high is used more generally.
+  - Deep and shallow can describe both physical depth and figurative intensity.
+  - Dimension vocabulary also includes lengthen, shorten, expand, contract, and heighten.
+  - Some spatial words form important figurative expressions, such as broad-minded and narrow-minded.
+  - Dimension vocabulary often relies on contrast pairs.
+  examples:
+  - english: wide road / broad subject / tall building / high wall
+  - english: deep water / shallow end / deep sadness
+  - english: lengthen / shorten / expand / contract / heighten
+  - english: broad-minded / narrow-minded
+  pitfalls:
+  - Do not use tall for every high object.
+  - Do not confuse broad with wide in figurative expressions.
+  - Do not forget that some depth words are common in emotional as well as physical contexts.
+  practicePrompts:
+  - id: distances-and-dimensions-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a place or object using vocabulary such as wide, broad, tall, high, deep, or shallow.
+  - id: distances-and-dimensions-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between two dimension words from this unit and give an example of each.
+  related: []
