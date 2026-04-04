@@ -14,8 +14,9 @@ chapter:
   - B2
   tags: []
   summary: While English boasts a vast vocabulary, most native speakers use only a
-    limited number of words daily. This book aims to expand your vocabulary and teach
-    you to use new words correctly.
+    limited number of words daily. This unit explains that learning vocabulary means
+    noticing usage, grammar, pronunciation, register, and effective ways to remember
+    and expand new words.
   points:
   - Knowing the definition of a word isn't enough; you also need to understand its
     usage.
@@ -24,25 +25,22 @@ chapter:
   - Some learners benefit from grouping vocabulary and using visual aids.
   - Reading and listening extensively are effective ways to learn new vocabulary.
   examples:
-  - english: You already know many of those 5,000 words.
-  - english: It is not enough just to know the meaning of a word.
+  - english: formal, informal or neutral
   - english: learn it in phrases
   - english: note pronunciation problems
+  - english: reading and listening to as much English as possible
   pitfalls:
-  - Focusing solely on dictionary definitions can hinder proper usage.
-  - Ignoring a word's register can lead to inappropriate communication.
-  - Neglecting pronunciation can make it difficult for others to understand you.
+  - Do not treat vocabulary learning as memorizing definitions only.
+  - Do not ignore grammar, pronunciation, or register when recording a new word.
+  - Do not learn words only in isolation without phrases, groups, or context.
   practicePrompts:
   - id: learning-vocabulary-prompt-1
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Explain the main advice from 'Learning vocabulary' and include two key
-      ideas such as 'Knowing the definition of a word isn't enough; you also need
-      to understand its usage.'.
+    prompt: Explain two reasons why knowing a word means more than knowing its definition.
   - id: learning-vocabulary-prompt-2
     type: open_text
     targetSkill: VOCABULARY
-    prompt: Use expressions such as 'You already know many of those 5,000 words.'
-      and 'It is not enough just to know the meaning of a word.' to write four short
-      sentences about 'Learning vocabulary'.
+    prompt: Describe two methods from this unit that could help you remember and expand
+      new vocabulary more effectively.
   related: []
