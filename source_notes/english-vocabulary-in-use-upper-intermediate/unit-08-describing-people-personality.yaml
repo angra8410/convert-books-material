@@ -13,14 +13,44 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter explores vocabulary for describing people's personalities,
+    covering intellectual ability, attitudes towards life, and interactions with others.
+    It also highlights how the same characteristic can be viewed positively or negatively
+    depending on perspective.
+  points:
+  - Several words describe intellectual ability, ranging from 'intelligent' to 'dim'.
+  - People's attitudes towards life can be described as optimistic (looking on the
+    bright side) or pessimistic (expecting the worst).
+  - Extroverted individuals enjoy being the focus of attention, while introverted
+    individuals prefer solitude.
+  - Some qualities, like 'determined,' can have both positive (determined) and negative
+    (obstinate) connotations.
+  - Words describing attitude towards other people include 'sociable,' 'quarrelsome,'
+    and 'honest.'
+  - The phrase 'one person's meat is another person's poison' illustrates that characteristics
+    can be perceived differently by different people.
+  examples:
+  - english: intelligent, bright, clever
+  - english: pessimistic / optimistic
+  - english: extroverted / introverted
+  - english: sociable, quarrelsome, honest
+  - english: determined / obstinate
+  pitfalls:
+  - Words like 'clever' can have negative connotations when used to describe someone
+    tricking or deceiving others (cunning).
+  - Characteristics considered positive in one context (e.g., being assertive) can
+    be negative in another (e.g., being aggressive).
+  - It's important to consider the context when judging whether a characteristic is
+    positive or negative.
   practicePrompts:
   - id: describing-people-personality-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: 'Write a short response using the key language from ''Describing people:
-      personality''.'
+    targetSkill: VOCABULARY
+    prompt: Describe a person's personality using at least three contrasting terms
+      from this unit.
+  - id: describing-people-personality-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain how one quality in this unit can sound positive in one context
+      and negative in another.
   related: []

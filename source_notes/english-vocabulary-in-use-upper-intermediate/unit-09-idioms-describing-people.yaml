@@ -13,14 +13,37 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter explores English idioms used to describe people's personalities
+    and behaviors, categorizing them as positive, negative, or reflecting their relation
+    to social norms. Many idioms use figurative language, such as body parts or unusual
+    situations, to convey meaning.
+  points:
+  - Idioms provide colorful and informal ways to describe people's qualities.
+  - Positive idioms often highlight kindness and helpfulness, while negative idioms
+    express unpleasantness or difficulty.
+  - Idioms based on 'head' often refer to mental qualities like memory, understanding,
+    or composure.
+  - Some idioms describe how someone relates to social norms, indicating they are
+    eccentric or very conventional.
+  - Certain idioms are commonly used to describe individuals in educational settings,
+    such as a 'teacher's pet' or a 'know-all'.
+  examples:
+  - english: She has a heart of gold.
+  - english: He's as hard as nails.
+  - english: He's a nasty piece of work.
+  - english: He's got his head screwed on.
+  - english: to bury your head in the sand
+  pitfalls:
+  - Using idioms inappropriately can sound awkward or unnatural.
+  - Some idioms are informal and may not be suitable for all situations.
   practicePrompts:
   - id: idioms-describing-people-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Idioms describing
-      people'.
+    targetSkill: VOCABULARY
+    prompt: Explain the meaning of three idioms from this unit for describing people.
+  - id: idioms-describing-people-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using idioms from this unit to describe someone's
+      behaviour or personality.
   related: []

@@ -13,13 +13,38 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter explores different types of relationships, from friendships
+    and romantic connections to family ties, and how these relationships are formed
+    and maintained, including online. It also introduces vocabulary related to liking
+    or disliking someone and common phrases used to describe relationships.
+  points:
+  - There's a spectrum of relationships, from casual acquaintances to best friends.
+  - Internet platforms allow for acquiring and maintaining friendships and contacts.
+  - Vocabulary exists to express varying degrees of liking someone, ranging from 'like'
+    to 'idolize', and disliking, from 'dislike' to 'loathe'.
+  - Phrases and idioms provide a rich way to describe relationship dynamics and experiences.
+  - Common phrases are used to describe starting and ending relationships.
+  - People make friends, and it can sometimes be challenging to form new friendships,
+    especially when relocating.
+  examples:
+  - english: She's a good friend - she's not my best friend.
+  - english: I met her through my ex, Kallum.
+  - english: I really fancy Charlotte, but her friend just leaves me cold.
+  - english: Lily and I get on well.
+  - english: I've fallen out with my parents again.
+  pitfalls:
+  - Confusing 'acquaintance' with 'best friend'.
+  - Misunderstanding the severity of phrases like 'having an affair'.
+  - Using incorrect vocabulary when expressing the intensity of feelings (e.g., using
+    'like' when 'idolize' is more appropriate).
   practicePrompts:
   - id: relationships-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Relationships'.
+    targetSkill: VOCABULARY
+    prompt: Explain three expressions from this unit for friendship, attraction, or disagreement.
+  - id: relationships-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using relationship vocabulary from this unit,
+      including one expression for getting on well or badly with someone.
   related: []
