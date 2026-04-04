@@ -13,13 +13,45 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter introduces ways to organize vocabulary and how to effectively
+    use a dictionary. It covers topic categorization, notebook organization, synonym/antonym
+    use, word forms, and crucially, what information a good dictionary provides regarding
+    pronunciation, stress, usage, and relationships between words.
+  points:
+  - Words can be organized by topic to improve vocabulary retention.
+  - Vocabulary notebooks can be structured with nouns, verbs, adjectives, collocations,
+    and fixed phrases.
+  - Dictionaries provide synonyms (words with similar meanings) and antonyms (opposites).
+  - Dictionaries indicate word stress, often with symbols or formatting.
+  - Dictionaries show how words are used grammatically, including collocations (common
+    word combinations).
+  - Dictionaries offer information on word class (noun, adjective, etc.) and whether
+    a noun is countable or uncountable.
+  examples:
+  - english: I was glad to hear you'd passed your exam.
+    note: Example of using a synonym ('glad' for 'pleased').
+  - english: friend ≠ enemy/foe (antonyms)
+    note: Example of antonyms from the dictionary explanation.
+  - english: firm commitment, firm grip, firm believer
+    note: Example of collocations from the dictionary explanation.
+  - english: He caught the ball and threw it back to me.
+    note: Example of a transitive verb from the dictionary explanation.
+  pitfalls:
+  - Incorrectly using infinitives after verbs (e.g., 'suggest you to ring her').
+  - Not understanding word stress can lead to pronunciation errors.
+  - Ignoring grammatical patterns can result in awkward or incorrect sentence construction.
+  - Relying on only one adjective - dictionaries can reveal related adjectives to
+    enrich writing.
   practicePrompts:
   - id: using-your-dictionary-prompt-1
     type: open_text
     targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Using your dictionary'.
+    prompt: Choose five words from your vocabulary notebook. Rewrite a short paragraph
+      using synonyms or antonyms for those words.
+  - id: using-your-dictionary-prompt-2
+    type: open_text
+    targetSkill: READING
+    prompt: Find a new word in English today. Look it up in a dictionary. Write down
+      what information the dictionary gives you about the word (pronunciation, stress,
+      usage, etc.).
   related: []

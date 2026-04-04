@@ -13,14 +13,40 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This section discusses methods for organizing a vocabulary notebook, moving
+    beyond simple lists to encompass broader groupings like meaning, networks, collocations,
+    synonyms/antonyms, word class, and stress. Effective organization facilitates
+    deeper understanding and recall of new vocabulary.
+  points:
+  - Organize vocabulary notebooks into sections based on broad meanings (feelings,
+    places, movement).
+  - Create network diagrams to visually link words and their relationships.
+  - Record common collocations (words that frequently go together) when learning new
+    vocabulary.
+  - Note synonyms (words with similar meanings) and antonyms (words with opposite
+    meanings).
+  - Identify and record the word class (noun, verb, adjective) and related word families.
+  - Pay attention to word stress, particularly when the stress pattern changes between
+    different word classes.
+  examples:
+  - english: classical (not classic)
+    note: 'Example of organizing by meaning: types of music.'
+  - english: win (prize, award, medal)
+    note: Example of recording collocations.
+  - english: urban ≠ rural
+    note: Example of noting antonyms.
+  - english: produce (verb) produce (noun) productive (adjective)
+    note: Example of recording related word families.
+  pitfalls:
+  - Confusing 'classic' and 'classical'.
+  - Forgetting to record collocations.
+  - Not distinguishing between different word classes (e.g., verb vs. noun 'produce').
+  - Ignoring stress patterns when they change across word classes.
   practicePrompts:
   - id: organising-a-vocabulary-notebook-prompt-1
     type: open_text
     targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Organising a vocabulary
-      notebook'.
+    prompt: Describe a method you currently use (or would like to use) to organize
+      your vocabulary notebook, incorporating at least three of the techniques mentioned
+      in this section.
   related: []

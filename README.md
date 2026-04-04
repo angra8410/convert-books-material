@@ -129,3 +129,28 @@ python tools/scaffold_book_notes.py `
   --chapters-file .\chapters.txt `
   --include-starter-prompts
 ```
+
+## PDF page-range text extraction
+
+`tools/extract_pdf_text.py` extracts raw text from a PDF page range into a `.txt` file for Ollama drafting.
+
+Example:
+
+```powershell
+python tools/extract_pdf_text.py `
+  "C:\path\to\English Vocabulary in Use Upper-Intermediate.pdf" `
+  --start-page 8 `
+  --end-page 9 `
+  --output raw_unit_01.txt
+```
+
+Then use that file with the Ollama drafter:
+
+```powershell
+python tools/draft_chapter_with_ollama.py `
+  --chapter-file source_notes\english-vocabulary-in-use-upper-intermediate\unit-01-learning-vocabulary.yaml `
+  --source-text-file .\raw_unit_01.txt `
+  --model gemma3:12b `
+  --timeout-seconds 180 `
+  --apply
+```
