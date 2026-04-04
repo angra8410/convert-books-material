@@ -328,36 +328,60 @@ def infer_default_target_skill(book: dict[str, Any], chapter: dict[str, Any]) ->
     return "WRITING"
 
 
+def first_sentence(text: str) -> str:
+    normalized = normalize_ascii_punctuation(text)
+    parts = re.split(r"(?<=[.!?])\s+", normalized, maxsplit=1)
+    return parts[0].strip() if parts else normalized
+
+
+def choose_prompt_anchor(chapter_title: str, points: list[str], examples: list[dict[str, str]]) -> str:
+    if points:
+        return first_sentence(points[0])
+    if examples:
+        return normalize_ascii_punctuation(examples[0].get("english", ""))
+    return normalize_ascii_punctuation(chapter_title)
+
+
 def build_fallback_practice_prompts(
     chapter_id: str,
     chapter_title: str,
     fallback_skill: str,
+    points: list[str],
+    examples: list[dict[str, str]],
 ) -> list[dict[str, str]]:
     normalized_title = normalize_ascii_punctuation(chapter_title)
+    anchor = choose_prompt_anchor(normalized_title, points, examples)
+    short_examples = [normalize_ascii_punctuation(item.get("english", "")) for item in examples[:2] if item.get("english")]
     if fallback_skill == "VOCABULARY":
         prompts = [
-            f"List five useful words or phrases from '{normalized_title}' and explain what they mean.",
-            f"Write five short sentences using vocabulary or collocations from '{normalized_title}'.",
+            f"Explain the main advice from '{normalized_title}' and include two key ideas such as '{anchor}'.",
+            (
+                f"Write four short examples showing vocabulary or collocations from '{normalized_title}'."
+                if not short_examples
+                else f"Use expressions such as '{short_examples[0]}'"
+                + (f" and '{short_examples[1]}'" if len(short_examples) > 1 else "")
+                + f" to write four short sentences about '{normalized_title}'."
+            ),
         ]
     elif fallback_skill == "READING":
         prompts = [
             f"Summarize the main idea of '{normalized_title}' in your own words.",
-            f"Explain two key details from '{normalized_title}' and why they matter.",
+            f"Explain two key details from '{normalized_title}', including '{anchor}'.",
         ]
     elif fallback_skill == "LISTENING":
         prompts = [
             f"Summarize the speaker's main point in '{normalized_title}'.",
-            f"Describe one supporting detail from '{normalized_title}' and why it is important.",
+            f"Describe one supporting detail from '{normalized_title}', such as '{anchor}'.",
         ]
     elif fallback_skill == "SPEAKING":
         prompts = [
             f"Give a short spoken explanation of the main idea in '{normalized_title}'.",
-            f"Give one example related to '{normalized_title}' and explain it clearly.",
+            f"Give one example related to '{normalized_title}', for example '{anchor}', and explain it clearly.",
         ]
     else:
         prompts = [
             f"Explain the main idea of '{normalized_title}' in your own words.",
-            f"Write a short response using key language from '{normalized_title}'.",
+            f"Write a short response using key language from '{normalized_title}', including '{anchor}'.",
         ]
 
     return [
@@ -391,10 +415,12 @@ def normalize_prompts(
     value: Any,
     fallback_skill: str,
     source_text: str,
+    chapter_title: str,
 ) -> list[dict[str, str]]:
     result: list[dict[str, str]] = []
     if not isinstance(value, list):
         return result
+    title_tokens = tokenize_content_words(chapter_title)
     for index, item in enumerate(value, start=1):
         if not isinstance(item, dict):
             continue
@@ -404,7 +430,10 @@ def normalize_prompts(
         prompt_id = f"{chapter_id}-prompt-{index}"
         prompt_type = "open_text"
         target_skill = normalize_target_skill(item.get("targetSkill"), fallback_skill)
-        if not is_grounded_text(prompt_text, source_text, min_overlap_ratio=0.2):
+        prompt_tokens = tokenize_content_words(prompt_text)
+        grounded = is_grounded_text(prompt_text, source_text, min_overlap_ratio=0.3)
+        title_grounded = bool(title_tokens & prompt_tokens)
+        if not grounded or (title_tokens and not title_grounded):
             continue
         result.append(
             {
@@ -437,12 +466,15 @@ def normalize_draft(
         draft.get("practicePrompts"),
         fallback_skill,
         source_text,
+        chapter["title"],
     )
     if not draft_prompts:
         draft_prompts = build_fallback_practice_prompts(
             chapter["id"],
             chapter["title"],
             fallback_skill,
+            normalize_string_list(draft.get("points")),
+            draft_examples,
         )
 
     return {

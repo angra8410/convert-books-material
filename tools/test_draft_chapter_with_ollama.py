@@ -174,6 +174,31 @@ class DraftChapterWithOllamaTest(unittest.TestCase):
             draft["examples"],
         )
         self.assertEqual("VOCABULARY", draft["practicePrompts"][0]["targetSkill"])
+        self.assertIn("Learning vocabulary", draft["practicePrompts"][0]["prompt"])
+
+    def test_normalize_draft_rejects_generic_generated_prompts_and_uses_fallbacks(self) -> None:
+        draft = drafter.normalize_draft(
+            {"title": "English Vocabulary in Use Upper-Intermediate", "tags": ["vocabulary"]},
+            {"id": "learning-vocabulary", "title": "Learning vocabulary", "tags": []},
+            {
+                "summary": "Summary",
+                "points": ["Learn new words within phrases."],
+                "examples": [{"english": "learn it in phrases"}],
+                "pitfalls": ["Pitfall"],
+                "practicePrompts": [
+                    {
+                        "id": "prompt1",
+                        "type": "open_text",
+                        "targetSkill": "READING",
+                        "prompt": "Find an English article online and list five new words.",
+                    }
+                ],
+            },
+            "Learn new words in phrases. Notice collocations and common usage.",
+        )
+
+        self.assertEqual("VOCABULARY", draft["practicePrompts"][0]["targetSkill"])
+        self.assertIn("Learning vocabulary", draft["practicePrompts"][0]["prompt"])
 
 
 if __name__ == "__main__":

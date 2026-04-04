@@ -13,41 +13,36 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: While English has a vast vocabulary, most native speakers only use a small
-    fraction in daily conversation. This book aims to help you expand your vocabulary
-    and use new words correctly and effectively.
+  summary: While English boasts a vast vocabulary, most native speakers use only a
+    limited number of words daily. This book aims to expand your vocabulary and teach
+    you to use new words correctly.
   points:
-  - Knowing the meaning of a word is not enough; consider its context, grammar, pronunciation,
-    and register.
-  - Learn new words within phrases to understand their typical usage.
-  - Pay attention to collocations (words that commonly go together).
-  - Note grammatical features and pronunciation challenges associated with new words.
-  - Some learners benefit from grouping words together and using visual aids.
-  - Reading and listening to English extensively is crucial for vocabulary acquisition.
+  - Knowing the definition of a word isn't enough; you also need to understand its
+    usage.
+  - Consider a word's grammar, pronunciation, and register (formal, informal, neutral).
+  - Learn words in phrases, noting collocations and grammatical features.
+  - Some learners benefit from grouping vocabulary and using visual aids.
+  - Reading and listening extensively are effective ways to learn new vocabulary.
   examples:
   - english: You already know many of those 5,000 words.
   - english: It is not enough just to know the meaning of a word.
   - english: learn it in phrases
   - english: note pronunciation problems
   pitfalls:
-  - Focusing solely on dictionary definitions without understanding context.
-  - Ignoring grammatical information can lead to incorrect usage.
-  - Neglecting pronunciation can hinder understanding and communication.
-  - Assuming a word's register is always the same.
+  - Focusing solely on dictionary definitions can hinder proper usage.
+  - Ignoring a word's register can lead to inappropriate communication.
+  - Neglecting pronunciation can make it difficult for others to understand you.
   practicePrompts:
   - id: learning-vocabulary-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Think of five words you use frequently. Describe the context in which
-      you usually use each word.
+    targetSkill: VOCABULARY
+    prompt: Explain the main advice from 'Learning vocabulary' and include two key
+      ideas such as 'Knowing the definition of a word isn't enough; you also need
+      to understand its usage.'.
   - id: learning-vocabulary-prompt-2
     type: open_text
-    targetSkill: READING
-    prompt: Find an English article online. Identify five new words and write down
-      their possible meanings and collocations.
-  - id: learning-vocabulary-prompt-3
-    type: open_text
-    targetSkill: LISTENING
-    prompt: Listen to a short English conversation. Note down any unfamiliar words
-      and try to guess their meaning from the context.
+    targetSkill: VOCABULARY
+    prompt: Use expressions such as 'You already know many of those 5,000 words.'
+      and 'It is not enough just to know the meaning of a word.' to write four short
+      sentences about 'Learning vocabulary'.
   related: []
