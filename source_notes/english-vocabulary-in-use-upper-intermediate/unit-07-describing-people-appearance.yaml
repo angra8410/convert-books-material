@@ -13,14 +13,41 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This section covers vocabulary for describing a person's appearance, including
+    hair, face, build, and overall impression. It also provides alternatives to potentially
+    impolite language and uses suffixes to describe approximate age or characteristics.
+  points:
+  - Describing hair includes length, texture (straight, wavy, curly), and color (blonde,
+    fair, dark, ginger/red).
+  - Facial features are described using adjectives like 'thin-faced,' 'round-faced,'
+    and 'chubby face'.
+  - Consider alternative vocabulary to avoid impoliteness when describing weight,
+    such as 'plump,' 'stout,' 'stocky,' or 'overweight.'
+  - Overall appearance can be described with adjectives like 'smart,' 'elegant,' 'scruffy,'
+    'stunning,' and 'good-looking'.
+  - The suffix '-ish' can be used to describe approximate qualities, such as 'tallish'
+    or 'brownish'.
+  - '''Fair'' and ''dark'' can describe hair, complexion or skin.'
+  examples:
+  - english: She's got straight hair and she's thin-faced.
+  - english: She's got a round face.
+  - english: He's got receding hair and a few wrinkles.
+  - english: She has such beautiful auburn hair.
+  - english: He's very scruffy and untidy-looking.
+  pitfalls:
+  - Avoid using 'fat' directly; use alternatives like 'plump' or 'overweight'.
+  - Be mindful of the formality of describing someone's appearance; some descriptions
+    can be considered rude.
+  - '''Fair'' and ''dark'' can be confusing if the context isn''t clear.'
   practicePrompts:
   - id: describing-people-appearance-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: 'Write a short response using the key language from ''Describing people:
-      appearance''.'
+    targetSkill: VOCABULARY
+    prompt: Describe a person's appearance using at least three expressions from this
+      unit for hair, face, build, or general appearance.
+  - id: describing-people-appearance-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain two polite alternatives this unit gives for describing someone's
+      build or general appearance.
   related: []

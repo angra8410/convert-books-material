@@ -13,13 +13,35 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter describes different types of weather and related vocabulary,
+    from cold conditions like frost and snow to warm, humid climates, and various
+    forms of wet weather and wind.
+  points:
+  - Vocabulary is presented to describe cold, warm, wet, and windy weather.
+  - A scale of wet weather intensity is provided, from 'shower' to 'flood'.
+  - Different terms describe strong winds, including 'breeze', 'gale', and 'hurricane'.
+  - The noun 'weather' is uncountable, meaning it is not used with a plural form.
+  - Conditions like 'drought' describe periods of unusually low rainfall.
+  examples:
+  - english: mild, misty, foggy and damp
+  - english: frost, icy roads, severe weather
+  - english: stifling, muggy and humid
+  - english: shower -> heavy rain -> downpour -> torrential rain -> flood
+  - english: gentle breeze, gale, hurricane
+  pitfalls:
+  - Remember that 'weather' is an uncountable noun; you cannot say 'weathers'.
+  - Avoid using 'severe weathers' - the correct phrase is 'severe weather'.
+  - Confusing 'misty', 'foggy', and 'damp'-each describes a slightly different level
+    of moisture and visibility.
   practicePrompts:
   - id: the-weather-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Write a short response using the key language from 'The weather'.
+    targetSkill: VOCABULARY
+    prompt: Explain three differences between the vocabulary used for cold, hot, wet,
+      and windy weather.
+  - id: the-weather-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short weather descriptions using vocabulary from this unit,
+      including at least one term for rain and one term for wind.
   related: []
