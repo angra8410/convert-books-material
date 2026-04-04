@@ -65,6 +65,13 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Include chapter metadata counts and source files in preview output.",
     )
+    parser.add_argument(
+        "--export-book-dir",
+        help=(
+            "Write one standalone JSON export per selected book into this directory "
+            "instead of writing the combined repository file."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -489,6 +496,26 @@ def format_preview(repository: Dict[str, Any], detailed: bool = False) -> str:
     return "\n".join(lines)
 
 
+def export_books(repository: Dict[str, Any], export_dir: Path) -> List[Path]:
+    export_dir.mkdir(parents=True, exist_ok=True)
+    written: List[Path] = []
+
+    for book in repository["books"]:
+        export_payload = {
+            "version": repository["version"],
+            "generatedAt": repository["generatedAt"],
+            "book": book,
+        }
+        output_path = export_dir / f"{book['id']}.json"
+        output_path.write_text(
+            json.dumps(export_payload, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        written.append(output_path)
+
+    return written
+
+
 def main() -> None:
     args = parse_args()
     source_dir = Path(args.source_dir)
@@ -504,6 +531,14 @@ def main() -> None:
 
     if args.preview:
         print(format_preview(repository, detailed=args.preview_detailed))
+        return
+
+    if args.export_book_dir:
+        export_dir = Path(args.export_book_dir)
+        written = export_books(repository, export_dir)
+        print(f"Exported {len(written)} standalone book file(s)")
+        for path in written:
+            print(f"Output: {path}")
         return
 
     output_file.parent.mkdir(parents=True, exist_ok=True)

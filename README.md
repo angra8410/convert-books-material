@@ -178,6 +178,32 @@ python tools/draft_chapter_with_ollama.py `
   --timeout-seconds 180 `
   --apply
 ```
+
+## Full B2 catalog export
+
+Use this command to export the complete `English Vocabulary in Use Upper-Intermediate` B2 book as a standalone JSON artifact:
+
+```powershell
+python tools/import_notes.py `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 1 `
+  --chapter-order-max 101 `
+  --export-book-dir exports
+```
+
+That writes:
+
+- `exports/english-vocabulary-in-use-upper-intermediate.json`
+
+Use this preview first if you want to check the full book before export:
+
+```powershell
+python tools/import_notes.py `
+  --preview `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 1 `
+  --chapter-order-max 101
+```
 ## Batch 7 import preview
 
 Use this command to preview B2 units 61 to 70 before writing or merging a larger catalog update:

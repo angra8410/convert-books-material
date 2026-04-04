@@ -110,6 +110,41 @@ class ImportNotesTest(unittest.TestCase):
         self.assertIn("- Book A (book-a): 2 chapter(s)", preview)
         self.assertIn("1  chapter-a1  Chapter A1", preview)
 
+    def test_export_books_writes_one_json_per_book(self) -> None:
+        temp_root = TOOLS_DIR.parent / "temp_test_import_notes_exports"
+        shutil.rmtree(temp_root, ignore_errors=True)
+        export_dir = temp_root / "exports"
+
+        repository = {
+            "version": 2,
+            "generatedAt": "2026-04-03T00:00:00+00:00",
+            "books": [
+                {
+                    "id": "book-a",
+                    "title": "Book A",
+                    "chapters": [{"id": "chapter-a1", "title": "Chapter A1", "order": 1}],
+                },
+                {
+                    "id": "book-b",
+                    "title": "Book B",
+                    "chapters": [{"id": "chapter-b1", "title": "Chapter B1", "order": 1}],
+                },
+            ],
+        }
+
+        written = importer.export_books(repository, export_dir)
+
+        self.assertEqual(2, len(written))
+        self.assertTrue((export_dir / "book-a.json").exists())
+        self.assertTrue((export_dir / "book-b.json").exists())
+
+        payload = (export_dir / "book-a.json").read_text(encoding="utf-8")
+        self.assertIn('"version": 2', payload)
+        self.assertIn('"id": "book-a"', payload)
+        self.assertIn('"title": "Book A"', payload)
+
+        shutil.rmtree(temp_root, ignore_errors=True)
+
 
 if __name__ == "__main__":
     unittest.main()
