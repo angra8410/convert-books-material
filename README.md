@@ -1,4 +1,4 @@
-# Convert Books Material
+﻿# Convert Books Material
 
 This repo is a staging workspace for turning book notes into a catalog JSON.
 
@@ -178,8 +178,16 @@ python tools/draft_chapter_with_ollama.py `
   --timeout-seconds 180 `
   --apply
 ```
+## Batch 7 import preview
 
+Use this command to preview B2 units 61 to 70 before writing or merging a larger catalog update:
 
-
-
+```powershell
+python tools/import_notes.py `
+  --preview `
+  --preview-detailed `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 61 `
+  --chapter-order-max 70
+```
 
