@@ -1,0 +1,54 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: cause-reason-purpose-and-result
+  title: Cause, reason, purpose and result
+  order: 63
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces vocabulary for expressing cause, reason, purpose,
+    and result in both neutral and more formal English.
+  points:
+  - Words like 'because,' 'since,' and 'as' are common for expressing cause and reason.
+  - Formal expressions like 'owing to,' 'sparked (off),' 'gave rise to,' 'brought
+    about,' and 'stems from' are frequently used in written English.
+  - The purpose of an action can be expressed with words like 'motives,' 'aim,' 'view,'
+    and 'grounds'.
+  - Expressions like 'as a result,' 'as a consequence,' 'consequently,' and 'ensued'
+    are used to describe results.
+  - Understanding the subtle differences in formality between phrases (e.g., 'result'
+    vs. 'consequence') enhances precision.
+  - Careful use of prepositions is important when using these expressions, as demonstrated
+    in the exercises.
+  examples:
+  - english: The collision was caused by ice on the road.
+  - english: Owing to the fact that the conditions were icy, the two cars collided.
+  - english: The rise in prices sparked (off) a lot of political protest.
+  - english: The new law has brought about great changes in education.
+  - english: Her reason for not going with us was that she had no money.
+  pitfalls:
+  - Remember to use 'owing to' followed by 'the fact that' when constructing sentences
+    with this phrase.
+  - Be mindful of the level of formality when choosing expressions; some are best
+    suited for written English.
+  - Incorrect prepositions can significantly alter the meaning of sentences using
+    cause and result phrases.
+  practicePrompts:
+  - id: cause-reason-purpose-and-result-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short sentences about a recent event using one cause expression
+      and one result expression from this unit.
+  - id: cause-reason-purpose-and-result-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one formal expression from this unit and explain when it sounds
+      more suitable than a simple word like 'because' or 'result'.
+  related: []

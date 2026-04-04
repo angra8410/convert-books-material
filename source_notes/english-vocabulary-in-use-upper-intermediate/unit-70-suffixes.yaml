@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: suffixes
+  title: Suffixes
+  order: 70
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common suffixes that help form nouns, adjectives,
+    and verbs and make it easier to recognise word class and meaning.
+  points:
+  - -er /@/ indicates a person who does an activity, while -or often means the same
+    thing.
+  - '-er and -ee contrast: ''-er'' signifies the person doing something, ''-ee'' the
+    person receiving or experiencing it.'
+  - -tion, -sion, and -ion form nouns from verbs.
+  - -ist refers to a person, while -ism refers to a belief or activity.
+  - -ness transforms adjectives into nouns.
+  - -able/-ible indicate something 'can be done'.
+  examples:
+  - english: writer, painter, worker
+  - english: actor, donor, operator
+  - english: employer / employee
+  - english: complication, pollution, reduction
+  - english: goodness, readiness, forgetfulness
+  pitfalls:
+  - The suffix -or is often spelled differently than the verb it's derived from (e.g.,
+    act/actor).
+  - Be aware that adding a suffix can sometimes change the stress in a word.
+  practicePrompts:
+  - id: suffixes-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group four words from this unit by suffix and explain what each suffix
+      tells you about meaning or word class.
+  - id: suffixes-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples showing the difference between '-er' and '-ee'
+      words.
+  related: []

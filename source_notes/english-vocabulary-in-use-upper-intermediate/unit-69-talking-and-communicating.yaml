@@ -1,0 +1,46 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: talking-and-communicating
+  title: Talking and communicating
+  order: 69
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces idioms and expressions for talking about communication
+    problems, types of talk, and common phrases used in conversations and meetings.
+  points:
+  - '"Talking at cross-purposes" means misunderstanding each other without realizing
+    it.'
+  - '"Getting a word in edgeways" describes the difficulty of speaking when others
+    dominate the conversation.'
+  - '"Talking down to someone" means speaking to them as if they are inferior.'
+  - '"Talking shop" refers to discussing work-related topics.'
+  - '"To give someone a talking to" means to scold or reprimand them.'
+  - '"To start the ball rolling" means to begin a discussion or activity.'
+  examples:
+  - english: talk at cross-purposes
+  - english: get a word in edgeways
+  - english: talk down to someone
+  - english: small talk
+  - english: start the ball rolling
+  pitfalls:
+  - Confusing 'talking at cross-purposes' with a deliberate disagreement.
+  - Misunderstanding the severity of 'giving someone a talking to' - it's a reprimand.
+  - Using 'small talk' inappropriately in serious situations.
+  practicePrompts:
+  - id: talking-and-communicating-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples using communication idioms from this unit.
+  - id: talking-and-communicating-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between 'small talk' and 'talking shop'.
+  related: []

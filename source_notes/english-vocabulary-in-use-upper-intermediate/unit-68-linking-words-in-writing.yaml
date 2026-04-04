@@ -1,0 +1,48 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: linking-words-in-writing
+  title: Linking words in writing
+  order: 68
+  cefr:
+  - B2
+  tags: []
+  summary: This unit focuses on linking words and phrases used in writing to structure
+    lists, move to new topics, add clarifications, and conclude a text.
+  points:
+  - Use 'First/Firstly/First of all', 'Secondly/Thirdly', and 'Finally/Lastly' for
+    lists.
+  - Use 'Turning to...' to introduce a new topic.
+  - '''In parenthesis...'' is used for side issues not central to the main argument.'
+  - Employ phrases like 'In summary/To sum up' or 'In conclusion/To conclude' to finish
+    a text.
+  - '''That is to say'' is a more formal way of explaining something.'
+  - '''So to speak'' or ''as it were'' softens a statement, indicating less precision.'
+  examples:
+  - english: Firstly, we must consider ...
+  - english: Turning to the question of foreign policy ...
+  - english: In summary, we may state that ...
+  - english: that is to say
+  - english: so to speak / as it were
+  pitfalls:
+  - Avoid 'At last' when meaning 'finally'; use 'Lastly' instead.
+  - Be mindful of the formality level when using phrases like 'that is to say'.
+  - Remember that 'say' in 'for example, say...' is common in spoken English.
+  practicePrompts:
+  - id: linking-words-in-writing-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write a short paragraph that uses a sequence linker, a topic-shift phrase,
+      and a concluding phrase from this unit.
+  - id: linking-words-in-writing-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between 'lastly' and 'at last' with one example
+      of each.
+  related: []

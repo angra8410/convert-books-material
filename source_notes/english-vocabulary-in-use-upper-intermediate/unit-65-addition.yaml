@@ -1,0 +1,54 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: addition
+  title: Addition
+  order: 65
+  cefr:
+  - B2
+  tags: []
+  summary: This unit covers words and phrases for adding information, from formal
+    linkers in writing to more informal additions used in speech.
+  points:
+  - Addition words and phrases link sentences or clauses to provide further information.
+  - Formal expressions include 'in addition', 'furthermore', 'moreover', and 'further
+    to'.
+  - Informal expressions include 'what's more', 'plus', 'and so on', 'and so forth',
+    'into the bargain', and 'to boot'.
+  - Expressions can appear at the beginning, middle, or end of sentences or clauses.
+  - Certain expressions are followed by nouns, noun phrases, or verb + -ing forms.
+  - Context dictates the appropriate choice of addition words and phrases; consider
+    the level of formality.
+  examples:
+  - english: For this job you need a degree. In addition, you need at least two years'
+      experience.
+  - english: Smartphones are becoming more sophisticated. Furthermore, they are becoming
+      cheaper.
+  - english: Children should respect their parents. Equally, they should respect their
+      teachers.
+  - english: We'll have stress... On top of (all) that, we'll have to pay the lawyers'
+      bills.
+  pitfalls:
+  - Be mindful of the formality level when choosing an addition phrase.
+  - Avoid using 'as well as' followed by a clause (e.g., 'As well as she speaks Japanese...');
+    use a noun phrase instead.
+  - Ensure the grammar aligns with the chosen addition phrase (e.g., some phrases
+    require a noun or noun phrase after them).
+  practicePrompts:
+  - id: addition-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Rewrite two simple sentence pairs using different addition expressions
+      from this unit.
+  - id: addition-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Group three addition expressions from this unit by formality and explain
+      your choices.
+  related: []

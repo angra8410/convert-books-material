@@ -1,0 +1,50 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: referring-words
+  title: Referring words
+  order: 66
+  cefr:
+  - B2
+  tags: []
+  summary: This unit explains how referring words help writers and speakers point
+    back to ideas, problems, topics, and solutions already introduced in a text.
+  points:
+  - Text-referring words derive meaning from their context within a text.
+  - Words like 'problem' and 'solution' organize the argument but don't inherently
+    define the topic.
+  - These words often appear in 'problem-solution' texts, connecting presented issues
+    with potential resolutions.
+  - Understanding these referring words is crucial for grasping the overall meaning
+    and structure of a text.
+  - Families of related words, such as 'situation,' 'problem,' and 'solution,' are
+    often used together with specific prepositions.
+  - Politicians often use referring words to support claims and refer to previous
+    statements or investments.
+  examples:
+  - english: problem / issue / topic / aspect
+  - english: The problem is getting worse each day.
+  - english: This was the biggest issue in the election.
+  - english: That's always an interesting topic.
+  pitfalls:
+  - Assuming a text-referring word's meaning is self-evident without considering the
+    surrounding text.
+  - Ignoring the prepositions commonly used with words like 'situation' and 'problem'.
+  practicePrompts:
+  - id: referring-words-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write a short paragraph about a local issue using at least three referring
+      words from this unit.
+  - id: referring-words-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain why words like 'problem' and 'solution' depend on context for
+      their meaning.
+  related: []

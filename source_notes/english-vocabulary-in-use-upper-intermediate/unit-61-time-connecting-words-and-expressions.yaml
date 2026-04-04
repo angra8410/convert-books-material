@@ -1,0 +1,53 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: time-connecting-words-and-expressions
+  title: 'Time: connecting words and expressions'
+  order: 61
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces words and expressions for linking events in time,
+    including sequence, simultaneity, and later or unspecified stages.
+  points:
+  - Use expressions such as 'prior to', 'previously', 'earlier on', and 'formerly'
+    to refer to something that happened before another event.
+  - Use 'in the meantime' and 'meanwhile' for the period between now and a later event.
+  - Use 'at the very time', 'at the very moment', and 'simultaneously' for events
+    that happen together.
+  - Distinguish between 'during' for part of a period and 'throughout' for the whole
+    period.
+  - Use 'following', 'subsequently', and 'thereafter' to show what happened after
+    an earlier event.
+  - Use phrases such as 'at a later stage' and 'at some point' for non-specific time
+    references.
+  examples:
+  - english: prior to meeting the committee
+  - english: Previously I'd only been to Rome.
+  - english: Formerly it was Hedge Lane.
+  - english: In the meantime / Meanwhile, relax and have a drink.
+  - english: The two events happened simultaneously.
+  pitfalls:
+  - Do not confuse 'formerly' with 'formally'; 'formerly' refers to an earlier state
+    or name.
+  - Use 'throughout' only when something continues from the beginning to the end of
+    a period.
+  - Choose time linkers carefully for register; some are noticeably more formal in
+    writing.
+  practicePrompts:
+  - id: time-connecting-words-and-expressions-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Describe a recent day using at least three time expressions from this
+      unit.
+  - id: time-connecting-words-and-expressions-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write two short examples showing the difference between 'during' and 'throughout'.
+  related: []

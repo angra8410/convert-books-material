@@ -1,0 +1,53 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: condition
+  title: Condition
+  order: 62
+  cefr:
+  - B2
+  tags: []
+  summary: This unit presents different ways to express condition in English, including
+    formal, informal, and spoken alternatives to 'if'.
+  points:
+  - Alternatives to 'if' exist to express condition, such as 'unless' and 'on condition
+    that'.
+  - '''In case of'' indicates a potential situation requiring action (e.g., ''In case
+    of fire, dial 112'').'
+  - '''As/so long as'' and ''provided/providing'' are less formal ways to express
+    condition.'
+  - '''Supposing'' and ''what if'' are commonly used in spoken language to explore
+    hypothetical situations.'
+  - '''-ever'' constructions indicate that it doesn''t matter which option is chosen
+    (e.g., ''whoever'', ''wherever'').'
+  - The present tense is used in the conditional clause (e.g., 'Take a jacket in case
+    it gets cold').
+  examples:
+  - english: You can't come in unless you have a ticket.
+  - english: You can borrow the bike on condition that you return it by five o'clock.
+  - english: In case of fire, dial 112.
+  - english: You can stay, as long as you don't mind sleeping on the sofa.
+  pitfalls:
+  - Don't confuse 'in case of' with 'in case'.
+  - 'Avoid using the future tense (''will'') in conditional clauses (e.g., incorrect:
+    ''Take a jacket in case it will get cold'').'
+  - Be mindful of the formality level when choosing conditional phrases ('on condition
+    that' is more formal than 'as long as').
+  practicePrompts:
+  - id: condition-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write three short conditional sentences using expressions from this unit
+      instead of 'if'.
+  - id: condition-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Explain the difference between 'in case' and 'in case of' with one example
+      of each.
+  related: []

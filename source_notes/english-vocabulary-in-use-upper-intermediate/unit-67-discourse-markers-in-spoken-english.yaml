@@ -1,0 +1,46 @@
+book:
+  id: english-vocabulary-in-use-upper-intermediate
+  title: English Vocabulary in Use Upper-Intermediate
+  author: Michael McCarthy; Felicity O'Dell
+  cefr:
+  - B2
+  tags:
+  - vocabulary
+chapter:
+  id: discourse-markers-in-spoken-english
+  title: Discourse markers in spoken English
+  order: 67
+  cefr:
+  - B2
+  tags: []
+  summary: This unit introduces common discourse markers used in spoken English to
+    organise conversation, manage turn-taking, and comment on what is being said.
+  points:
+  - Discourse markers help organize conversations and signal changes in direction.
+  - They can be used to comment on what is being said, expressing agreement, disagreement,
+    or hesitation.
+  - Common discourse markers include 'well,' 'right,' 'OK,' 'now,' 'so,' and 'fine'.
+  - Some markers introduce suggestions or important points, while others prevent interruptions.
+  - Alphabet letters (a, b, c) are often used to list points in informal speech.
+  - Listening for discourse markers can improve comprehension in relaxed listening
+    situations.
+  examples:
+  - english: Well, near Boston.
+  - english: Right/OK, let's have a look at exercise 3.
+  - english: So, where was I? I was telling you about my aunt ...
+  - english: Still / On the other hand, we can't complain, it was fine all last week.
+  pitfalls:
+  - Overusing discourse markers can make speech sound unnatural.
+  - The meaning of a discourse marker can vary depending on context.
+  practicePrompts:
+  - id: discourse-markers-in-spoken-english-prompt-1
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write a short dialogue that includes at least three discourse markers
+      from this unit.
+  - id: discourse-markers-in-spoken-english-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose two discourse markers from this unit and explain how they help
+      organise spoken interaction.
+  related: []
