@@ -13,45 +13,35 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: This chapter introduces ways to organize vocabulary and how to effectively
-    use a dictionary. It covers topic categorization, notebook organization, synonym/antonym
-    use, word forms, and crucially, what information a good dictionary provides regarding
-    pronunciation, stress, usage, and relationships between words.
+  summary: A good learner's dictionary provides more than just definitions; it offers
+    pronunciation guides, stress markings, usage examples, synonyms, antonyms, collocations,
+    and information about word class and relationships between words.
   points:
-  - Words can be organized by topic to improve vocabulary retention.
-  - Vocabulary notebooks can be structured with nouns, verbs, adjectives, collocations,
-    and fixed phrases.
-  - Dictionaries provide synonyms (words with similar meanings) and antonyms (opposites).
-  - Dictionaries indicate word stress, often with symbols or formatting.
-  - Dictionaries show how words are used grammatically, including collocations (common
-    word combinations).
-  - Dictionaries offer information on word class (noun, adjective, etc.) and whether
-    a noun is countable or uncountable.
+  - Dictionaries indicate pronunciation using symbols.
+  - Dictionaries show word stress through markings or typography.
+  - Dictionaries explain how words are used grammatically (usage).
+  - Dictionaries provide synonyms (similar meaning) and antonyms (opposites).
+  - Dictionaries list common collocations (words that go together).
+  - Dictionaries differentiate between transitive and intransitive verbs.
   examples:
-  - english: I was glad to hear you'd passed your exam.
-    note: Example of using a synonym ('glad' for 'pleased').
-  - english: friend ≠ enemy/foe (antonyms)
-    note: Example of antonyms from the dictionary explanation.
-  - english: firm commitment, firm grip, firm believer
-    note: Example of collocations from the dictionary explanation.
-  - english: He caught the ball and threw it back to me.
-    note: Example of a transitive verb from the dictionary explanation.
+  - english: th in thick
+  - english: sh in she
+  - english: suggest + clause (not an infinitive) - I suggest you ring her right away.
+  - english: mislay and misplace (synonyms)
+  - english: friend != enemy/foe (antonyms)
   pitfalls:
-  - Incorrectly using infinitives after verbs (e.g., 'suggest you to ring her').
-  - Not understanding word stress can lead to pronunciation errors.
-  - Ignoring grammatical patterns can result in awkward or incorrect sentence construction.
-  - Relying on only one adjective - dictionaries can reveal related adjectives to
-    enrich writing.
+  - Symbols used for pronunciation may differ from standard letters.
+  - Incorrectly using a word without understanding its grammatical usage.
+  - Failing to consider collocations when forming sentences.
   practicePrompts:
   - id: using-your-dictionary-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Choose five words from your vocabulary notebook. Rewrite a short paragraph
-      using synonyms or antonyms for those words.
+    targetSkill: VOCABULARY
+    prompt: Imagine you are explaining to a new learner what a dictionary can show
+      them. Describe three key features.
   - id: using-your-dictionary-prompt-2
     type: open_text
-    targetSkill: READING
-    prompt: Find a new word in English today. Look it up in a dictionary. Write down
-      what information the dictionary gives you about the word (pronunciation, stress,
-      usage, etc.).
+    targetSkill: VOCABULARY
+    prompt: Choose one word and describe what pronunciation, stress, grammar, and
+      collocation information you would record from a dictionary entry.
   related: []

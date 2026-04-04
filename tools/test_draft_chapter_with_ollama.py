@@ -200,6 +200,47 @@ class DraftChapterWithOllamaTest(unittest.TestCase):
         self.assertEqual("VOCABULARY", draft["practicePrompts"][0]["targetSkill"])
         self.assertIn("Learning vocabulary", draft["practicePrompts"][0]["prompt"])
 
+    def test_sanitize_examples_for_dictionary_chapter_removes_fragile_symbol_suffixes(self) -> None:
+        examples = [
+            {"english": "th in thick (Ã°)"},
+            {"english": "sh in she (Êƒ)"},
+            {"english": "friend != enemy/foe"},
+        ]
+
+        sanitized = drafter.sanitize_examples_for_chapter("Using your dictionary", examples)
+
+        self.assertEqual(
+            [
+                {"english": "th in thick"},
+                {"english": "sh in she"},
+                {"english": "friend != enemy/foe"},
+            ],
+            sanitized,
+        )
+
+    def test_dictionary_chapter_uses_dictionary_specific_fallback_prompts(self) -> None:
+        prompts = drafter.build_fallback_practice_prompts(
+            "using-your-dictionary",
+            "Using your dictionary",
+            "VOCABULARY",
+            ["Dictionaries show pronunciation using symbols."],
+            [{"english": "friend != enemy/foe"}],
+        )
+
+        self.assertEqual("VOCABULARY", prompts[0]["targetSkill"])
+        self.assertIn("dictionary", prompts[0]["prompt"].lower())
+        self.assertIn("pronunciation, stress, grammar, and collocation", prompts[1]["prompt"])
+
+    def test_notebook_chapter_uses_notebook_specific_fallback_pitfalls(self) -> None:
+        pitfalls = drafter.build_fallback_pitfalls(
+            "Organising a vocabulary notebook",
+            "VOCABULARY",
+        )
+
+        self.assertGreaterEqual(len(pitfalls), 3)
+        self.assertIn("collocations", " ".join(pitfalls).lower())
+        self.assertIn("word class", " ".join(pitfalls).lower())
+
 
 if __name__ == "__main__":
     unittest.main()

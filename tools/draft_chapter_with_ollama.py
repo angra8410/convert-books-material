@@ -140,6 +140,7 @@ def build_prompt(book: dict[str, Any], chapter: dict[str, Any], source_text: str
         "- You may omit examples or practicePrompts if the source text does not support them clearly.\n"
         "- Ground every field in the source text. Do not invent facts that are not supported by it.\n"
         "- Prefer examples that reuse exact phrases or very close wording from the source text.\n"
+        "- If the extracted text includes neighboring-unit material, keep only content that clearly matches the chapter title and ignore unrelated sections.\n"
         "- Keep CEFR and tone appropriate for the chapter level.\n"
         "- Use open_text prompts.\n"
         "- Use targetSkill values only from this set: WRITING, READING, LISTENING, SPEAKING, VOCABULARY.\n"
@@ -179,6 +180,7 @@ def normalize_ascii_punctuation(value: str) -> str:
         "\u2013": "-",
         "\u2014": "-",
         "\u2026": "...",
+        "\u2260": "!=",
         "\u00a0": " ",
         "â€™": "'",
         "â€œ": '"',
@@ -191,6 +193,8 @@ def normalize_ascii_punctuation(value: str) -> str:
     }
     for source, target in replacements.items():
         normalized = normalized.replace(source, target)
+    normalized = normalized.replace("â‰", "!=")
+    normalized = normalized.replace("≠", "!=")
     normalized = re.sub(r"\s+", " ", normalized).strip()
     return normalized
 
@@ -314,6 +318,32 @@ def normalize_examples(value: Any) -> list[dict[str, str]]:
     return result
 
 
+def sanitize_examples_for_chapter(
+    chapter_title: str,
+    examples: list[dict[str, str]],
+) -> list[dict[str, str]]:
+    lowered_title = normalize_ascii_punctuation(chapter_title).lower()
+    if "dictionary" not in lowered_title:
+        return examples
+
+    sanitized: list[dict[str, str]] = []
+    for example in examples:
+        english = normalize_ascii_punctuation(example.get("english", ""))
+        note = normalize_ascii_punctuation(example.get("note", ""))
+        english = re.sub(r"\s*\([^)]*(?:ð|ʃ|θ|ŋ|æ|ə|ɪ|ʊ|ʒ|Êƒ|Ã°)[^)]*\)", "", english).strip()
+        if english.startswith("th in thick"):
+            english = "th in thick"
+        if english.startswith("sh in she"):
+            english = "sh in she"
+        if not english:
+            continue
+        cleaned = {"english": english}
+        if note:
+            cleaned["note"] = note
+        sanitized.append(cleaned)
+    return sanitized
+
+
 def infer_default_target_skill(book: dict[str, Any], chapter: dict[str, Any]) -> str:
     tags = [str(tag).lower() for tag in book.get("tags", []) + chapter.get("tags", [])]
     title_text = f"{book.get('title', '')} {chapter.get('title', '')}".lower()
@@ -352,7 +382,12 @@ def build_fallback_practice_prompts(
     normalized_title = normalize_ascii_punctuation(chapter_title)
     anchor = choose_prompt_anchor(normalized_title, points, examples)
     short_examples = [normalize_ascii_punctuation(item.get("english", "")) for item in examples[:2] if item.get("english")]
-    if fallback_skill == "VOCABULARY":
+    if "dictionary" in normalized_title.lower():
+        prompts = [
+            f"Explain what information a good learner's dictionary gives beyond a basic definition in '{normalized_title}'.",
+            f"Choose one word and describe what pronunciation, stress, grammar, and collocation information you would record from a dictionary entry for '{normalized_title}'.",
+        ]
+    elif fallback_skill == "VOCABULARY":
         prompts = [
             f"Explain the main advice from '{normalized_title}' and include two key ideas such as '{anchor}'.",
             (
@@ -395,7 +430,35 @@ def build_fallback_practice_prompts(
     ]
 
 
+def build_fallback_pitfalls(
+    chapter_title: str,
+    fallback_skill: str,
+) -> list[str]:
+    normalized_title = normalize_ascii_punctuation(chapter_title)
+    lowered_title = normalized_title.lower()
+    if "dictionary" in lowered_title:
+        return [
+            "Do not rely only on the definition and ignore pronunciation, stress, or grammar notes.",
+            "Do not copy a word from the dictionary without checking its collocations or usage pattern.",
+            "Do not confuse transitive and intransitive verb patterns when building sentences.",
+        ]
+    if "notebook" in lowered_title:
+        return [
+            "Do not record words only as isolated translations without grouping or context.",
+            "Do not forget to note collocations, word class, and stress patterns with new vocabulary.",
+            "Do not mix near-synonyms or antonyms without recording how they differ in use.",
+        ]
+    if fallback_skill == "VOCABULARY":
+        return [
+            "Do not focus only on definitions and ignore how the language is actually used.",
+            "Do not record new words without context, examples, or common combinations.",
+        ]
+    return []
+
+
 def normalize_target_skill(value: Any, fallback: str) -> str:
+    if fallback == "VOCABULARY":
+        return "VOCABULARY"
     normalized = normalize_ascii_punctuation(str(value or "")).upper()
     if normalized in VALID_TARGET_SKILLS:
         return normalized
@@ -460,6 +523,7 @@ def normalize_draft(
     ]
     if not draft_examples:
         draft_examples = extract_source_examples(source_text)
+    draft_examples = sanitize_examples_for_chapter(chapter["title"], draft_examples)
 
     draft_prompts = normalize_prompts(
         chapter["id"],
@@ -476,12 +540,19 @@ def normalize_draft(
             normalize_string_list(draft.get("points")),
             draft_examples,
         )
+    draft_pitfalls = [
+        pitfall
+        for pitfall in normalize_string_list(draft.get("pitfalls"))
+        if is_grounded_text(pitfall, source_text, min_overlap_ratio=0.2)
+    ]
+    if not draft_pitfalls:
+        draft_pitfalls = build_fallback_pitfalls(chapter["title"], fallback_skill)
 
     return {
         "summary": normalize_ascii_punctuation(str(draft.get("summary", ""))),
         "points": normalize_string_list(draft.get("points")),
         "examples": draft_examples,
-        "pitfalls": normalize_string_list(draft.get("pitfalls")),
+        "pitfalls": draft_pitfalls,
         "practicePrompts": draft_prompts,
     }
 

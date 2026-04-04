@@ -13,40 +13,41 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: This section discusses methods for organizing a vocabulary notebook, moving
-    beyond simple lists to encompass broader groupings like meaning, networks, collocations,
-    synonyms/antonyms, word class, and stress. Effective organization facilitates
-    deeper understanding and recall of new vocabulary.
+  summary: This section focuses on methods for organizing a vocabulary notebook, going
+    beyond simple lists to create a more effective learning tool. It suggests various
+    methods like grouping by meaning, creating networks, recording collocations and
+    synonyms/antonyms, and noting word class and stress.
   points:
-  - Organize vocabulary notebooks into sections based on broad meanings (feelings,
-    places, movement).
-  - Create network diagrams to visually link words and their relationships.
-  - Record common collocations (words that frequently go together) when learning new
-    vocabulary.
+  - Organize your notebook into sections based on broad categories like feelings,
+    places, or movement.
+  - Use charts and tables to visually structure vocabulary related to specific topics
+    (e.g., music).
+  - Create network diagrams to connect words and show relationships between them.
+  - Record common collocations (words that typically go together) alongside new vocabulary.
   - Note synonyms (words with similar meanings) and antonyms (words with opposite
     meanings).
-  - Identify and record the word class (noun, verb, adjective) and related word families.
-  - Pay attention to word stress, particularly when the stress pattern changes between
-    different word classes.
+  - Always record the word class (noun, verb, adjective, etc.) and stress patterns
+    of new words.
   examples:
   - english: classical (not classic)
-    note: 'Example of organizing by meaning: types of music.'
   - english: win (prize, award, medal)
-    note: Example of recording collocations.
-  - english: urban ≠ rural
-    note: Example of noting antonyms.
+  - english: in a hurry
+  - english: urban != rural
   - english: produce (verb) produce (noun) productive (adjective)
-    note: Example of recording related word families.
   pitfalls:
-  - Confusing 'classic' and 'classical'.
-  - Forgetting to record collocations.
-  - Not distinguishing between different word classes (e.g., verb vs. noun 'produce').
-  - Ignoring stress patterns when they change across word classes.
+  - Do not record words only as isolated translations without grouping or context.
+  - Do not forget to note collocations, word class, and stress patterns with new
+    vocabulary.
+  - Do not mix near-synonyms or antonyms without recording how they differ in use.
   practicePrompts:
   - id: organising-a-vocabulary-notebook-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Describe a method you currently use (or would like to use) to organize
-      your vocabulary notebook, incorporating at least three of the techniques mentioned
-      in this section.
+    targetSkill: VOCABULARY
+    prompt: Describe a way you could organize your vocabulary notebook to focus on
+      words related to your hobbies.
+  - id: organising-a-vocabulary-notebook-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Imagine a new vocabulary word you've learned. Explain how you would record
+      it in your notebook using at least three of the methods described in this section.
   related: []
