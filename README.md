@@ -20,6 +20,30 @@ Run it like this:
 python tools/import_notes.py
 ```
 
+### Preview a filtered import
+
+You can preview a subset before writing the JSON file. For example, to preview the first
+10 units of the B2 vocabulary book:
+
+```powershell
+python tools/import_notes.py `
+  --preview `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 1 `
+  --chapter-order-max 10
+```
+
+If you want to generate a filtered preview file instead of the full catalog:
+
+```powershell
+python tools/import_notes.py `
+  source_notes `
+  temp\b2_batch_1_preview.json `
+  --book-id english-vocabulary-in-use-upper-intermediate `
+  --chapter-order-min 1 `
+  --chapter-order-max 10
+```
+
 ## New full-book scaffolding flow
 
 `tools/scaffold_book_notes.py` creates one chapter stub file per unit so a whole book can be staged quickly before import.

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -20,6 +21,46 @@ except ImportError:
 class ChapterRecord:
     book: Dict[str, Any]
     chapter: Dict[str, Any]
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Import curated note files into a content repository JSON."
+    )
+    parser.add_argument(
+        "source_dir",
+        nargs="?",
+        default="source_notes",
+        help="Directory containing curated note files.",
+    )
+    parser.add_argument(
+        "output_file",
+        nargs="?",
+        default="app/src/main/assets/content_repository.json",
+        help="Output JSON file path.",
+    )
+    parser.add_argument(
+        "--book-id",
+        action="append",
+        dest="book_ids",
+        help="Filter to one or more book ids. Repeat the flag to include multiple books.",
+    )
+    parser.add_argument(
+        "--chapter-order-min",
+        type=int,
+        help="Only include chapters with order >= this value.",
+    )
+    parser.add_argument(
+        "--chapter-order-max",
+        type=int,
+        help="Only include chapters with order <= this value.",
+    )
+    parser.add_argument(
+        "--preview",
+        action="store_true",
+        help="Print a summary preview instead of writing the output file.",
+    )
+    return parser.parse_args()
 
 
 def slugify(value: str) -> str:
@@ -353,7 +394,12 @@ def normalize_chapter(chapter: Dict[str, Any], source_file: str, book: Dict[str,
     }
 
 
-def build_repository(source_dir: Path) -> Dict[str, Any]:
+def build_repository(
+    source_dir: Path,
+    book_ids: set[str] | None = None,
+    chapter_order_min: int | None = None,
+    chapter_order_max: int | None = None,
+) -> Dict[str, Any]:
     files = sorted(
         [
             p for p in source_dir.rglob("*")
@@ -370,6 +416,13 @@ def build_repository(source_dir: Path) -> Dict[str, Any]:
         record = load_note_file(file_path)
         book = normalize_book(record.book)
         chapter = normalize_chapter(record.chapter, str(file_path.relative_to(source_dir)), book)
+
+        if book_ids and book["id"] not in book_ids:
+            continue
+        if chapter_order_min is not None and chapter["order"] < chapter_order_min:
+            continue
+        if chapter_order_max is not None and chapter["order"] > chapter_order_max:
+            continue
 
         existing = books_map.get(book["id"])
         if existing is None:
@@ -403,15 +456,39 @@ def build_repository(source_dir: Path) -> Dict[str, Any]:
     }
 
 
+def format_preview(repository: Dict[str, Any]) -> str:
+    books = repository["books"]
+    lines = [
+        f"Preview: {len(books)} book(s), "
+        f"{sum(len(book['chapters']) for book in books)} chapter(s)"
+    ]
+    for book in books:
+        lines.append(
+            f"- {book['title']} ({book['id']}): {len(book['chapters'])} chapter(s)"
+        )
+        for chapter in book["chapters"]:
+            lines.append(
+                f"  {chapter['order']:>3}  {chapter['id']}  {chapter['title']}"
+            )
+    return "\n".join(lines)
+
+
 def main() -> None:
-    source_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("source_notes")
-    output_file = (
-        Path(sys.argv[2])
-        if len(sys.argv) > 2
-        else Path("app/src/main/assets/content_repository.json")
+    args = parse_args()
+    source_dir = Path(args.source_dir)
+    output_file = Path(args.output_file)
+    book_ids = set(args.book_ids or [])
+
+    repository = build_repository(
+        source_dir,
+        book_ids=book_ids or None,
+        chapter_order_min=args.chapter_order_min,
+        chapter_order_max=args.chapter_order_max,
     )
 
-    repository = build_repository(source_dir)
+    if args.preview:
+        print(format_preview(repository))
+        return
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
     output_file.write_text(
