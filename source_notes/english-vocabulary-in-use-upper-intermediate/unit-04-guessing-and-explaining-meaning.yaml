@@ -13,14 +13,36 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter focuses on strategies for understanding unfamiliar words by
+    utilizing context clues and relating them to known words or languages. It also
+    provides useful phrases for explaining the meaning of unknown words to others.
+  points:
+  - Context provides clues to a word's meaning, including visual elements, background
+    knowledge, surrounding words, and grammatical function.
+  - Recognizing the structure of words, like prefixes and suffixes, can help decipher
+    their meaning.
+  - Similarities between English words and words in other languages can aid in understanding,
+    but be wary of 'false friends'.
+  - Certain phrases are useful for explaining the meaning of an unknown word.
+  examples:
+  - english: a type of flower
+  - english: a scarf worn on the head
+  - english: gift in English means a present but in German Gift means poison
+  - english: It's a kind of ...
+  - english: It's probably something like ...
+  pitfalls:
+  - Do not rely on one clue only when guessing the meaning of an unfamiliar word.
+  - Do not confuse false friends with true equivalents in another language.
+  - Do not ignore grammatical clues such as whether a word is a noun, adjective, or adverb.
   practicePrompts:
   - id: guessing-and-explaining-meaning-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Guessing and explaining
-      meaning'.
+    targetSkill: VOCABULARY
+    prompt: Explain three clues you can use to guess the meaning of an unfamiliar
+      word.
+  - id: guessing-and-explaining-meaning-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Choose one unfamiliar word and explain how you would guess its meaning
+      from context, structure, or another language you know.
   related: []

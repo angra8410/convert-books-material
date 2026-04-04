@@ -13,14 +13,43 @@ chapter:
   cefr:
   - B2
   tags: []
-  summary: ''
-  points: []
-  examples: []
-  pitfalls: []
+  summary: This chapter covers the conventions for referring to countries, nationalities,
+    languages, and regional groups in English. It highlights specific grammatical
+    rules for country names and provides lists of adjective suffixes used to denote
+    nationalities.
+  points:
+  - Some country names use 'the', including the United States, the United Kingdom,
+    and the Netherlands.
+  - Nationalities are often formed using suffixes like -ish, -(i)an, -ese, -i, and
+    -ic.
+  - Certain nationalities have unique noun forms, such as a Finn or a Spaniard.
+  - Adjectives describing nationalities can often be used as nouns (e.g., a German).
+  - Regional groups and ethnic groups, like 'Asian' or 'European,' can function as
+    both adjectives and nouns.
+  - People can be monolingual (one language), bilingual (two languages), or multilingual
+    (multiple languages).
+  examples:
+  - english: the United States / the US(A)
+  - english: British
+  - english: a Spaniard
+  - english: Many Europeans enjoy travelling to the Far East.
+  pitfalls:
+  - Don't forget to use 'the' with countries like 'the United Kingdom'.
+  - Not all nationalities follow the standard suffix rules; some (like 'Swiss') are
+    exceptions.
+  - Be mindful of whether a nationality is best expressed as an adjective or a noun
+    (e.g., 'a German' vs 'a Dane').
+  - When referring to people from a nationality, consider adding 'man,' 'woman,' or
+    'person' to avoid ambiguity.
   practicePrompts:
   - id: countries-nationalities-and-languages-prompt-1
     type: open_text
-    targetSkill: WRITING
-    prompt: Write a short response using the key language from 'Countries, nationalities
-      and languages'.
+    targetSkill: VOCABULARY
+    prompt: Explain two rules from this unit about country names, nationalities, or
+      language labels in English.
+  - id: countries-nationalities-and-languages-prompt-2
+    type: open_text
+    targetSkill: VOCABULARY
+    prompt: Write four short examples using nationality or region words from this
+      unit, including at least one example with 'the'.
   related: []
