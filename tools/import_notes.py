@@ -60,6 +60,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Print a summary preview instead of writing the output file.",
     )
+    parser.add_argument(
+        "--preview-detailed",
+        action="store_true",
+        help="Include chapter metadata counts and source files in preview output.",
+    )
     return parser.parse_args()
 
 
@@ -456,7 +461,7 @@ def build_repository(
     }
 
 
-def format_preview(repository: Dict[str, Any]) -> str:
+def format_preview(repository: Dict[str, Any], detailed: bool = False) -> str:
     books = repository["books"]
     lines = [
         f"Preview: {len(books)} book(s), "
@@ -470,6 +475,17 @@ def format_preview(repository: Dict[str, Any]) -> str:
             lines.append(
                 f"  {chapter['order']:>3}  {chapter['id']}  {chapter['title']}"
             )
+            if detailed:
+                tags_count = len(chapter.get("tags", []))
+                points_count = len(chapter.get("points", []))
+                examples_count = len(chapter.get("examples", []))
+                prompts_count = len(chapter.get("practicePrompts", []))
+                source_file = chapter.get("metadata", {}).get("sourceFile", "")
+                cefr = ",".join(chapter.get("cefr", [])) or "-"
+                lines.append(
+                    f"       cefr={cefr} tags={tags_count} points={points_count} "
+                    f"examples={examples_count} prompts={prompts_count} source={source_file}"
+                )
     return "\n".join(lines)
 
 
@@ -487,7 +503,7 @@ def main() -> None:
     )
 
     if args.preview:
-        print(format_preview(repository))
+        print(format_preview(repository, detailed=args.preview_detailed))
         return
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -505,3 +521,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
